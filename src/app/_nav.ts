@@ -11,7 +11,7 @@ export const navigationEn = [
     name: 'Facility',
     name_fr: 'fr_Facility',
     url: '/base/facility',
-    icon: 'icon-pie-chart',
+    icon: 'fa fa-building',
     viewId: 1,
     index: 1
   },
@@ -19,7 +19,7 @@ export const navigationEn = [
     name: 'Offender',
     name_fr: 'fr_Offender',
     url: '/base/offender',
-    icon: 'icon-pie-chart',
+    icon: 'fa fa-users',
     viewId: 1,
     index: 2
   },
