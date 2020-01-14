@@ -1,0 +1,843 @@
+{
+  "results": [
+    {
+      "_id": "5d361671eb6b57111cbc17a5",
+      "code": "5A009",
+      "header": {
+        "name": {
+          "description": {
+            "en": "BELMONT ASG",
+            "fr": "BELMONT ASG"
+          },
+          "abbreviation": {
+            "en": "BELMONT ASG",
+            "fr": "BELMONT ASG"
+          }
+        },
+        "type": {
+          "code": "0098",
+          "description": {
+            "en": "OTHER",
+            "fr": "AUTRE"
+          }
+        },
+        "address": {
+          "provinceState": {
+            "code": "0001",
+            "description": {
+              "en": "ALBERTA",
+              "fr": "ALBERTA"
+            }
+          },
+          "region": {
+            "code": "0005",
+            "description": {
+              "en": "PRAIRIES",
+              "fr": "PRAIRIES"
+            }
+          },
+          "timezone": {
+            "code": "0005",
+            "description": {
+              "en": "MOUNTAIN TIME",
+              "fr": "HEURE DES ROCHEUSES"
+            }
+          }
+        },
+        "contact": {
+          "hours": "7"
+        },
+        "parent": {
+          "code": "53930",
+          "description": {
+            "en": "ADJ HEADQUARTERS",
+            "fr": "EDMONTON - BUREAU SECTORIEL"
+          }
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0002",
+          "description": {
+            "en": "INACTIVE",
+            "fr": "INACTIF"
+          },
+          "effectiveDate": "1993-08-08T00:00:00.000Z",
+          "closedDate": "1993-08-08T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361671eb6b57111cbc17a2",
+      "code": "40440",
+      "header": {
+        "name": {
+          "description": {
+            "en": "ST. LEO.'S FRANK GREIVE H.",
+            "fr": "ST. LEO.'S FRANK GREIVE H."
+          }
+        },
+        "type": {
+          "code": "0011",
+          "description": {
+            "en": "COMMUNITY RESIDENTIAL FACILITY",
+            "fr": "CENTRE RÉSIDENTIEL COMMUN."
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "1426 QUEEN STREET, EAST",
+            "fr": " "
+          },
+          "city": "TORONTO",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "M4L1E1",
+          "paroleOffice": {
+            "code": "48004",
+            "description": {
+              "en": "TORONTO EAST AREA PAROLE OFF.",
+              "fr": "TORONTO-EST BUREAU SECTORIEL"
+            }
+          },
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          },
+          "district": {
+            "code": "28800",
+            "description": {
+              "en": "ATLANTIC DISTRICT OFFICE",
+              "fr": "BUREAU DE DISTRICT ATLANTIQUE"
+            }
+          },
+          "street2": {
+            "en": "",
+            "fr": ""
+          },
+          "street3": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        "contact": {
+          "phone": "4167788321",
+          "phone2": "4167788321",
+          "hours": "7",
+          "personInCharge": "brbrb"
+        },
+        "clientele": {
+          "code": "0001",
+          "description": {
+            "en": "MEN",
+            "fr": "HOMMES"
+          }
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0002",
+          "description": {
+            "en": "INACTIVE",
+            "fr": "INACTIF"
+          },
+          "effectiveDate": "2019-11-27T15:44:48.119Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17ba",
+      "code": "31830",
+      "header": {
+        "name": {
+          "description": {
+            "en": "JOLIETTE",
+            "fr": "JOLIETTE"
+          },
+          "abbreviation": {
+            "en": "JOLIETTE",
+            "fr": "JOLIETTE"
+          }
+        },
+        "type": {
+          "code": "0008",
+          "description": {
+            "en": "PROVINCIAL INSTITUTION",
+            "fr": "ÉTABLISSEMENT PROVINCIAL"
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "440 RUE ST-LOUIS",
+            "fr": "440 RUE ST-LOUIS"
+          },
+          "city": "JOLIETTE",
+          "provinceState": {
+            "code": "0010",
+            "description": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            }
+          },
+          "postalZipCode": "J8E 2Y8",
+          "paroleOffice": {
+            "code": "39000",
+            "description": {
+              "en": "EAST-WEST QUEBEC DISTRICT OFF.",
+              "fr": "EST-OUEST (QUE) BUREAU DISTR."
+            }
+          },
+          "region": {
+            "code": "0003",
+            "description": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "description": "DIRECTEUR",
+          "phone": "5147554853",
+          "phone2": "5147554853",
+          "hours": "7"
+        },
+        "parent": {
+          "code": "39013",
+          "description": {
+            "en": "LANAUDIERE PAROLE OFFICE",
+            "fr": "LANAUDIERE BUR. LIB. COND."
+          }
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1990-11-16T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361671eb6b57111cbc17ab",
+      "code": "42940",
+      "header": {
+        "name": {
+          "description": {
+            "en": "NORTHERN TREATMENT CENTRE PROV",
+            "fr": "CENTRE TRAITEMENT DU NORD PROV"
+          },
+          "abbreviation": {
+            "en": "NORTH T. PROV",
+            "fr": "CENTRE T. PROV"
+          }
+        },
+        "type": {
+          "code": "0008",
+          "description": {
+            "en": "PROVINCIAL INSTITUTION",
+            "fr": "ÉTABLISSEMENT PROVINCIAL"
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "800 GREAT NORTHERN ROAD",
+            "fr": " "
+          },
+          "street2": {
+            "en": "BOX 1510",
+            "fr": " "
+          },
+          "city": "SAULT STE MARIE",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "P6A 6N3",
+          "paroleOffice": {
+            "code": "47000",
+            "description": {
+              "en": "EAST&NORTH ONT. DISTR. OFFICE",
+              "fr": "EST&NORD ONT. BUREAU DISTRICT"
+            }
+          },
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "description": "DIRECTOR",
+          "phone": "7059460995",
+          "phone2": "7059460995",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1990-11-15T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17c6",
+      "code": "43330",
+      "header": {
+        "name": {
+          "description": {
+            "en": "RIDEAU CORREC.& TREAT.CENTRE",
+            "fr": "RIDEAU CENTRE CORREC.& TRAIT."
+          },
+          "abbreviation": {
+            "en": "RIDEAU C.T.C",
+            "fr": "RIDEAU C.T.C"
+          }
+        },
+        "type": {
+          "code": "0008",
+          "description": {
+            "en": "PROVINCIAL INSTITUTION",
+            "fr": "ÉTABLISSEMENT PROVINCIAL"
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "PO BOX 100",
+            "fr": " "
+          },
+          "street2": {
+            "en": "COUNTRY ROAD 2",
+            "fr": " "
+          },
+          "city": "BURRITT'S RAPIDS",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "K0G 1B0",
+          "paroleOffice": {
+            "code": "47000",
+            "description": {
+              "en": "EAST&NORTH ONT. DISTR. OFFICE",
+              "fr": "EST&NORD ONT. BUREAU DISTRICT"
+            }
+          },
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "description": "SUPERINTENDENT",
+          "phone": "6132694771",
+          "phone2": "6132694771",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1991-04-02T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17c0",
+      "code": "49330",
+      "header": {
+        "name": {
+          "description": {
+            "en": "ST. LEO'S LARCH HALFWAY HOUSE",
+            "fr": "ST. LEO'S LARCH HALFWAY HOUSE"
+          }
+        },
+        "type": {
+          "code": "0011",
+          "description": {
+            "en": "COMMUNITY RESIDENTIAL FACILITY",
+            "fr": "CENTRE RÉSIDENTIEL COMMUN."
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "238 LARCH STREET",
+            "fr": " "
+          },
+          "city": "SUDBURY",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "P3B 1M1",
+          "paroleOffice": {
+            "code": "47008",
+            "description": {
+              "en": "SUDBURY AREA PAROLE OFFICE",
+              "fr": "SUDBURY - BUREAU SECTORIEL"
+            }
+          },
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "phone": "7056742887",
+          "phone2": "7056742887",
+          "hours": "7"
+        },
+        "parent": {
+          "code": "47000",
+          "description": {
+            "en": "EAST&NORTH ONT. DISTR. OFFICE",
+            "fr": "EST&NORD ONT. BUREAU DISTRICT"
+          }
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1990-11-09T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17c1",
+      "code": "49430",
+      "header": {
+        "name": {
+          "description": {
+            "en": "A.R.I.D.GROUP HOMES NIAGARA",
+            "fr": "A.R.I.D.GROUP HOMES MIAGARA"
+          }
+        },
+        "type": {
+          "code": "0011",
+          "description": {
+            "en": "COMMUNITY RESIDENTIAL FACILITY",
+            "fr": "CENTRE RÉSIDENTIEL COMMUN."
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "175 PINE STREET, SOUTH",
+            "fr": " "
+          },
+          "city": "THOROLD",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "L2V 3M5",
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "phone": "9052271113",
+          "phone2": "9052271113",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0002",
+          "description": {
+            "en": "INACTIVE",
+            "fr": "INACTIF"
+          },
+          "effectiveDate": "1994-10-05T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17b7",
+      "code": "48530",
+      "header": {
+        "name": {
+          "description": {
+            "en": "JHS OTTAWA",
+            "fr": "SOCIETE JOHN HOWARD D'OTTAWA"
+          }
+        },
+        "type": {
+          "code": "0011",
+          "description": {
+            "en": "COMMUNITY RESIDENTIAL FACILITY",
+            "fr": "CENTRE RÉSIDENTIEL COMMUN."
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "933 SOMERSET STREET WEST",
+            "fr": " "
+          },
+          "city": "OTTAWA",
+          "provinceState": {
+            "code": "0008",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "postalZipCode": "K1R 6R8",
+          "region": {
+            "code": "0004",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            }
+          },
+          "timezone": {
+            "code": "0003",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            }
+          }
+        },
+        "contact": {
+          "phone": "6132369793",
+          "phone2": "6132369793",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0002",
+          "description": {
+            "en": "INACTIVE",
+            "fr": "INACTIF"
+          },
+          "effectiveDate": "1990-11-09T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361671eb6b57111cbc17a0",
+      "code": "23332",
+      "header": {
+        "name": {
+          "description": {
+            "en": "CAPE BRETON CORRECTIONAL CTR.",
+            "fr": "CC CAPE BRETON"
+          },
+          "abbreviation": {
+            "en": "CAPE BRETON CC",
+            "fr": "CC CAPE BRETON"
+          }
+        },
+        "type": {
+          "code": "0008",
+          "description": {
+            "en": "PROVINCIAL INSTITUTION",
+            "fr": "ÉTABLISSEMENT PROVINCIAL"
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "R.R. #4",
+            "fr": " "
+          },
+          "city": "SYDNEY",
+          "provinceState": {
+            "code": "0007",
+            "description": {
+              "en": "NOVA SCOTIA",
+              "fr": "NOUVELLE-ÉCOSSE"
+            }
+          },
+          "postalZipCode": "B1P 6G6",
+          "paroleOffice": {
+            "code": "28100",
+            "description": {
+              "en": "NOVA SCOTIA DISTRICT OFFICE",
+              "fr": "NOUVELLE ÉCOSSE"
+            }
+          },
+          "region": {
+            "code": "0002",
+            "description": {
+              "en": "ATLANTIC",
+              "fr": "ATLANTIQUE"
+            }
+          },
+          "timezone": {
+            "code": "0002",
+            "description": {
+              "en": "ATLANTIC TIME",
+              "fr": "HEURE DE L'ATLANTIQUE"
+            }
+          }
+        },
+        "contact": {
+          "description": "SUPERINTENDENT",
+          "phone": "9025632114",
+          "phone2": "9025632114",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1990-11-09T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    },
+    {
+      "_id": "5d361672eb6b57111cbc17c9",
+      "code": "20530",
+      "header": {
+        "name": {
+          "description": {
+            "en": "CLARENVILLE CORREC. CENTRE",
+            "fr": "CLARENVILLE - CENTRE CORREC."
+          },
+          "abbreviation": {
+            "en": "CLARENVILLE CC",
+            "fr": "CC CLARENVILLE"
+          }
+        },
+        "type": {
+          "code": "0008",
+          "description": {
+            "en": "PROVINCIAL INSTITUTION",
+            "fr": "ÉTABLISSEMENT PROVINCIAL"
+          }
+        },
+        "address": {
+          "street1": {
+            "en": "P.O. BOX 1030",
+            "fr": " "
+          },
+          "city": "CLARENVILLE",
+          "provinceState": {
+            "code": "0005",
+            "description": {
+              "en": "NEWFOUNDLAND AND LABRADOR",
+              "fr": "TERRE-NEUVE ET LABRADOR"
+            }
+          },
+          "postalZipCode": "A0E 1J0",
+          "paroleOffice": {
+            "code": "28300",
+            "description": {
+              "en": "NEWFOUNDLAND DISTRICT OFFICE",
+              "fr": "TERRE-NEUVE - BUREAU DISTRICT"
+            }
+          },
+          "region": {
+            "code": "0002",
+            "description": {
+              "en": "ATLANTIC",
+              "fr": "ATLANTIQUE"
+            }
+          },
+          "timezone": {
+            "code": "0001",
+            "description": {
+              "en": "NEWFOUNDLAND TIME",
+              "fr": "HEURE DE TERRE-NEUVE"
+            }
+          }
+        },
+        "contact": {
+          "description": "DIRECTOR",
+          "phone": "7094663101",
+          "hours": "7"
+        }
+      },
+      "status": {
+        "current": {
+          "code": "0001",
+          "description": {
+            "en": "ACTIVE",
+            "fr": "ACTIF"
+          },
+          "effectiveDate": "1991-01-18T00:00:00.000Z"
+        },
+        "section81": {
+          "code": "0002",
+          "description": {
+            "en": "NO",
+            "fr": "NON"
+          }
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "http://localhost:3000/api/v1/facilities?limit=10&page=1",
+      "rel": "self",
+      "method": "GET"
+    }
+  ],
+  "pagination": {
+    "results": 2010,
+    "size": 10,
+    "pages": {
+      "current": 1,
+      "previous": null,
+      "next": 2,
+      "last": 201
+    }
+  }
+}

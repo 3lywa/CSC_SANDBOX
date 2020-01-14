@@ -1,0 +1,75 @@
+<div class="app flex-row align-items-center">
+  <div class="container {{isIEOrEdge?'IE-container':''}}">
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <div class="alert alert-dark" role="alert">
+                <i class="fa fa-info-circle"></i> {{ 'app-header.banner' | translate}}
+              </div>
+          </div>
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card-group">
+          <div class="card p-4">
+            <div class="card-body">
+              <h1>
+                <i class="fa fa-sign-in"></i> {{ 'login.login' | translate }}</h1>
+              <p class="text-muted">{{ 'login.sign-in' | translate }}</p>
+
+              <div class="card" *ngIf="message">
+                <div class="card-body p-0 d-flex align-items-center">
+                  <i *ngIf="loggedOut" class="fa fa-info-circle bg-warning p-3 font-2xl mr-3"></i>
+                  <i *ngIf="!isActive && !loggedOut" class="fa fa-info-circle bg-warning p-3 font-2xl mr-3"></i>
+                  <i *ngIf="isActive && !loggedOut" class="fa fa-info-circle bg-danger p-3 font-2xl mr-3"></i>
+                  <div>
+                    <div class="text-muted text-uppercase font-weight-bold small">{{message}}</div>
+                  </div>
+                </div>
+              </div>
+
+              <form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+                <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+                  <label for="username">
+                    <strong>{{ 'login.username' | translate }}</strong>
+                  </label>
+                  <div class="input-group">
+                  <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        CSC-SSC \
+                      </span>
+                    </div>
+                  <input type="text" class="form-control" name="username" [(ngModel)]="model.username" #username="ngModel" required />
+                  </div>
+                  <div *ngIf="f.submitted && !username.valid" class="red help-block">{{ 'login.username_required' | translate }}</div>
+                </div>
+                <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !password.valid }">
+                  <label for="password">
+                    <strong>{{ 'login.password' | translate }}</strong>
+                  </label>
+                  <input type="password" class="form-control" name="password" [(ngModel)]="model.password" #password="ngModel" autocomplete="false"
+                    required />
+                  <div *ngIf="f.submitted && !password.valid" class="red help-block">{{ 'login.password_required' | translate }}</div>
+                </div>
+                <div class="form-group">
+                  <button [disabled]="loading" class="btn btn-primary">{{ 'login.login' | translate }}&nbsp;<i *ngIf="loading" class="fa fa-spinner fa-spin"></i></button>
+                </div>
+              </form>
+            </div>
+            <span class="text-right clickable" [title]="selectedLangLabel" (click)="clickLanguage()">{{ selectedLangLabel }}</span>
+          </div>
+          <div class="card text-white bg-dark py-5 d-md-down-none" style="width:44%">
+            <div class="card-header text-center">
+              <h2>{{ 'app-header.title' | translate }}</h2>
+            </div>
+            <div class="card-body text-center ">
+            </div>
+            <div class="text-white bg-dark card-footer text-center ">
+              <p><i class="fa fa-envelope"></i> <a href="mailto:test@test.com"> CSC SANDBOX</a></p>
+              <p><span class="small">{{'about.build_no' | translate}}</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

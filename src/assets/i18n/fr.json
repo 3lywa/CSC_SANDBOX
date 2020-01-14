@@ -1,0 +1,155 @@
+{
+  "app-header": {
+    "title": "fr_CSC SANDBOX",
+    "logout": "fr_Logout",
+    "banner": "fr_This system is for the use of authorized individuals only and is monitored in accordance with Treasury Board and Correctional Service of Canada Policy on the use of electronic networks. Evidence of unacceptable of illegal use will be reported and disciplinary or legal action may follow.",
+    "employee_profile": "fr_Employee Profile"
+  },
+  "full_layout": {
+    "dashboard": "fr_Dashboard"
+  },
+  "login": {
+    "title": "fr_Template",
+    "body": "fr_Sign in using your NT Account",
+    "account": "fr_Account",
+    "profile": "fr_Profile",
+    "logout": "fr_Logout",
+    "sign-in": "fr_Sign In to your account",
+    "password_required": "fr_Password is required",
+    "username": "fr_Username (NT Account)",
+    "username_required": "fr_Username is required",
+    "login": "fr_Login",
+    "password": "fr_Password",
+    "help": "fr_Get help with CSC SANDBOX",
+    "banner": "fr_This system is for the use of authorized individuals only and is monitored in accordance with Treasury Board and Correctional Service of Canada Policy on the use of electronic networks. Evidence of unacceptable of illegal use will be reported and disciplinary or legal action may follow."
+  },
+  "dashboard": {},
+  "item1": {
+    "title": "fr_Item 1"
+  },
+  "template_report": {
+    "title": "fr_Template Report",
+    "header": "fr_List of Records",
+    "tabHeader": "fr_Summary Table"
+  },
+  "export_elements": {
+    "btn_title": "fr_EXPORT",
+    "export_csv": "fr_Export as CSV",
+    "export_pdf": "fr_Export as PDF"
+  },
+  "btn_elements": {
+    "create": "fr_Create",
+    "update": "fr_Update",
+    "clear": "fr_Clear",
+    "cancel": "fr_Cancel",
+    "remove": "fr_Remove",
+    "submit": "fr_Submit",
+    "save": "fr_Save",
+    "close": "fr_Close",
+    "reset": "fr_Reset",
+    "yes": "fr_Yes",
+    "edit": "fr_Edit",
+    "delete": "fr_Delete",
+    "view": "fr_View",
+    "add": "fr_Add",
+    "stop": "fr_Stop",
+    "showAll": "fr_Show All",
+    "available": "fr_Available",
+    "unavailable": "fr_Unavailable"
+  },
+  "modal_elements": {
+    "title": "fr_Remove",
+    "message": "fr_Are you sure you want to remove ",
+    "remove": "fr_Yes",
+    "cancel": "fr_No"
+  },
+  "placeholder": {
+    "search": "fr_Search here",
+    "startDate": "fr_Select start date",
+    "endDate": "fr_Select end date",
+    "timeframe": "fr_Select timeframe",
+    "no_results": "fr_No Results Found",
+    "nameEn": "fr_Enter English name",
+    "nameFr": "fr_Enter French name",
+    "filterDate": "fr_Filter By Date",
+    "username": "fr_NT Account",
+    "loading": "fr_Loading",
+    "accountnt": "fr_Enter account NT",
+    "firstname": "fr_Enter first name",
+    "lastname": "fr_Enter last name",
+    "email": "fr_Enter user email",
+    "facilitycode": "fr_Enter user facility code",
+    "roles": "fr_Select user roles",
+    "noroles": "fr_No roles to display",
+    "nofirstname": "fr_No first name to display",
+    "nolastname": "fr_No last name to display",
+    "noemail": "fr_No email to display",
+    "nofacilitycode": "fr_No facility code to display"
+  },
+  "manage": {
+    "update": "fr_Update",
+    "add": "fr_Add"
+  },
+  "labels": {
+    "nameEn": "fr_NameEn",
+    "nameFr": "fr_NameFr",
+    "descEn": "fr_DescEn",
+    "descFr": "fr_DescFr",
+    "status": "fr_Status"
+  },
+  "tableHeaders": {
+    "from": "fr_From",
+    "to": "fr_To",
+    "total": "fr_Total"
+  },
+  "help": {
+    "title": "fr_Help Center"
+  },
+  "about": {
+    "title": "fr_CSC SANDBOX",
+    "build_no": "fr_Template V1.0",
+    "top_content_1": "fr_Version 1.0",
+    "top_content_2": "fr_CSC SANDBOX",
+    "get_help": "fr_Get help with Template",
+    "bottom_content_1": "fr_CSC SANDBOX",
+    "bottom_content_2": "fr_Copyright @2018 CSC-SSC.",
+    "bottom_content_3A": "fr_CSC SANDBOX is made possible with",
+    "bottom_content_3B": "fr_open source project and other open source libraries."
+  },
+  "settings": {
+    "title": "fr_Preferences",
+    "theme": "fr_Dark Theme",
+    "font_size": "fr_Font Size",
+    "toast_position": "fr_Toast Position",
+    "ipp": "fr_Items per page",
+    "max_size": "fr_Max pagination size",
+    "reset": "fr_Reset",
+    "restore": "fr_Restore settings to their original defaults",
+    "reset_message": "fr_This will reset all current settings to their original defaults? Do you wish to continue?"
+  },
+  "dropdownlist": {
+    "very_small": "fr_Very Small",
+    "small": "fr_Small",
+    "medium": "fr_Medium (Recommended)",
+    "large": "fr_Large",
+    "very_large": "fr_Very Large",
+    "bottom_right": "fr_Bottom Right (Default)",
+    "bottom_left": "fr_Bottom Left",
+    "top_right": "fr_Top Right",
+    "top_left": "fr_Top Left"
+  },
+  "users": {
+    "username": "fr_Account NT",
+    "firstname": "fr_First Name",
+    "lastname": "fr_Last Name",
+    "roles": "fr_Roles",
+    "status": "fr_Status",
+    "email": "fr_Email",
+    "lastLogin": "fr_Last Login"
+  },
+  "roles": {
+    "title": "fr_Roles",
+    "roleid": "fr_Role Id",
+    "desc": "fr_Description"
+  }
+}

@@ -1,0 +1,19 @@
+<header class="app-header navbar bg-dark navbar-dark">
+  <button class="navbar-toggler d-lg-none" type="button" appMobileSidebarToggler>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <button class="navbar-toggler d-md-down-none" type="button" appSidebarToggler>
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="nav navbar-nav d-md-down-none">
+    <li class="app-title">{{'app-header.title' | translate}}</li>
+  </ul>
+  <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item px-2">
+      <a class="nav-link" [routerLink]="" (click)="clickLanguage();">{{selectedLangLabel}}</a>
+    </li>
+    <li class="nav-item px-2">
+      <a class="nav-link" (click)="logout()" [routerLink]="['/login/login']"><i class="fa fa-sign-out"></i> {{'app-header.logout' | translate}}</a>
+    </li>
+  </ul>
+</header>

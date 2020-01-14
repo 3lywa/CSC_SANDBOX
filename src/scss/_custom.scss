@@ -1,0 +1,543 @@
+// Here you can add other styles
+.clickable {
+  cursor: pointer;
+}
+
+.hoverLightblue {
+  &:hover {
+      color: #3366ff;
+  }
+}
+
+.hoverGreen {
+  &:hover {
+      color: green;
+  }
+}
+
+.lightblue {
+  color: #0099cc;
+  &:hover {
+      color: blue;
+  }
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.app-title {
+  color: white;
+}
+
+.nav-divider {
+  color: white;
+}
+
+.vis-label {
+  background-color: white;
+}
+
+.vis-bottom.vis-panel {
+  background-color: white;
+}
+
+.pagination {
+  background-color: #f0f3f5;
+  border-top: 1px solid #c2cfd6;
+}
+
+// .pagination-border{
+//   background-color:#c2cfd6;
+// }
+.pagination:before {
+  background-color: #f0f3f5;
+}
+
+.align-center {
+  position: relative;
+  top: 4px;
+}
+
+.mdivider {
+  height: 1px;
+  width: 100%;
+  display: block;
+  /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+input[type=range] {
+  /*removes default webkit styles*/
+  -webkit-appearance: none;
+  /*fix for FF unable to apply focus style bug */
+  border: 1px solid white;
+  /*required for proper track sizing in FF*/
+  width: 300px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #20a8d8;
+  margin-top: -5px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #20a8d8;
+}
+
+/*hide the outline behind the border*/
+
+input[type=range]:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+  width: 300px;
+  height: 5px;
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+  /*remove default tick marks*/
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #777;
+  border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #20a8d8;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ccc;
+}
+
+.font-Size-0 {
+  font-size: xx-small;
+}
+
+.font-Size-1 {
+  font-size: x-small;
+}
+
+.font-Size-2 {
+  font-size: small;
+}
+
+.font-Size-3 {
+  font-size: medium;
+}
+
+.font-Size-4 {
+  font-size: large;
+}
+
+.theme-header {
+  background-color: #dfe7eb;
+}
+
+.w3-theme-d5 {
+  .search,
+  .placeholder {
+      -webkit-text-fill-color: white;
+  }
+  .about {
+      color: white;
+  }
+  .custom-disabled {
+      color:#fff !important;
+      background-color: rgb(163, 167, 170) !important;
+  }
+}
+
+.pagination-footer {
+  ul {
+      width: 100%;
+      padding: 6px;
+      margin: 0px;
+      table-layout: fixed;
+      li {
+          display: table-cell;
+          padding: 0px;
+          margin: 0px;
+          table-layout: fixed;
+      }
+  }
+}
+
+.w3-theme-d2 {
+  ul.pagination li>a {
+      color: white !important;
+      background-color: rgb(61, 70, 77) !important;
+  }
+  ul {
+      background-color: #4e4e4e;
+  }
+  li {
+      background-color: #4e4e4e;
+  }
+}
+
+.IE-container {
+  margin-top: 200px;
+}
+
+.app-header-bg {
+  i,
+  span {
+      color: white;
+  }
+  color: white;
+  background-color: #29363E;
+}
+
+.app-header-bg:hover {
+  color: white;
+  background-color: #29363E;
+}
+
+.app-footer-bg {
+  color: white;
+  background-color: #232A32;
+}
+
+.fullscreen-modal-dialog {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.w3-theme-l5 {color:#000 !important; background-color:#f6f6f6 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#dfdfdf !important}
+.w3-theme-l3 {color:#000 !important; background-color:#c0c0c0 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#a0a0a0 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#818181 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#575757 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#4e4e4e !important}
+.w3-theme-d3 {color:#fff !important; background-color:#444444 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#3a3a3a !important}
+.w3-theme-d5 {color:#fff !important; background-color:#303030 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f6f6f6 !important}
+.w3-theme-dark {color:#fff !important; background-color:#303030 !important}
+.w3-theme-action {color:#fff !important; background-color:#303030 !important}
+
+.w3-theme {color:#fff !important; background-color:#616161 !important}
+.w3-text-theme {color:#616161 !important}
+.w3-border-theme {border-color:#616161 !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#616161 !important}
+.w3-hover-text-theme:hover {color:#616161 !important}
+.w3-hover-border-theme:hover {border-color:#616161 !important}
+
+.spin {
+  color: rgba(255, 255, 255, 0.904);
+  background-color: #20A8D8;
+}
+
+.csc-header {
+  font-size: 1.1em;
+}
+
+.app-ngx-invalid {
+  display: block;
+  width: 100%;
+  padding-top: 0.4em;
+  font-size: 80%;
+  color: #f86c6b;
+}
+
+.ng-select.is-invalid .ng-select-container {
+  min-height: 0px;
+  border-radius: 0.2em;
+  border-color: #F86C6B;
+  color: white;
+}
+
+.ng-select.is-invalid .ng-select-container .ng-arrow-wrapper .ng-arrow {
+  border-color: #F86C6B transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 2.5px
+}
+
+.ng-select.is-invalid.ng-select-opened>.ng-select-container .ng-arrow {
+  top: -2px;
+  border-color: transparent transparent #F86C6B;
+  border-width: 0 5px 5px
+}
+
+.ng-select.custom .ng-select-container {
+  min-height: 0px;
+  border-radius: 0;
+  border-color: #F86C6B;
+  color: white;
+}
+
+.ng-select.custom ::ng-deep .ng-select-container {
+  min-height: 0px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+}
+
+.ng-select.custom .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+  background-color: white;
+  color: black;
+  padding: 8px 10px;
+}
+
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-disabled {
+  color: rgb(41, 38, 38);
+}
+
+.ng-select.ng-select-disabled>.ng-select-container {
+  background-color: #C2CFD6;
+}
+
+.ng-select.custom.ng-select-disabled>.ng-select-container {
+  background-color: rgb(163, 167, 170)
+}
+
+.form-group .has-error{
+  border-color:#F86C6B;
+}
+
+.profile {
+  body{
+    margin-top:20px;
+    background:#ebeef0;
+}
+.panel {
+    box-shadow: 0 2px 0 rgba(0,0,0,0.075);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 24px;
+}
+.widget-header {
+    padding: 15px 15px 50px 15px;
+    min-height: 125px;
+    position: relative;
+    overflow: hidden;
+}
+.widget-body {
+    padding: 50px 15px 15px;
+    position: relative;
+}
+.widget-img {
+    border-radius: 50%;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 50%;
+    margin-left: -32px;
+    top: -15px;
+}
+.widget-img-profile {
+  border-radius: 100%;
+  position: absolute;
+  width: 300px;
+  height: 75px;
+  left: 70%;
+  margin-left: 10px;
+  top: 10px;
+}
+.widget-contact {
+    position: absolute;
+    bottom: 8px;
+    right: 100px;
+}
+.widget-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 50%;
+}
+.img-border-light {
+    box-shadow: 0 0 0 4px #fff;
+}
+.img-border {
+    box-shadow: 0 0 0 4px rgba(0,0,0,0.1);
+}
+.mar-no {
+    margin: 0 !important;
+}
+.mar-btm {
+    margin-bottom: 15px;
+}
+.pad-ver {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pad-btm {
+    padding-bottom: 15px;
+}
+.pad-top {
+    padding-top: 8px;
+  }
+}
+
+.text-indentation {
+  text-indent: 4%;
+  line-height : 20px;
+  padding : 0;
+  margin : 0;
+}
+
+.icon-size {
+  font-size: 25px;
+}
+
+.bg-yellow-custom {
+  background-color: rgb(228, 228, 15);
+}
+
+.text-yellow-custom {
+  color: rgb(228, 228, 15);
+}
+
+.chrevon-position {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
+.custom-popover {
+  max-width: 500px;
+  font-size: small;
+}
+
+.fullscreen-modal-dialog {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.large-modal-dialog {
+  max-width: 75%;
+  max-height: 100%;
+}
+
+.floating-button {
+  border-radius: 50px;
+}
+
+.profile-image {
+  width: 96px;
+  min-height: 96px;
+}
+
+.profile-image-team {
+  width: 55px;
+  min-height: 55px;
+}
+
+.profile-image-search {
+  width: 30px;
+  min-height: 30px;
+}
+
+.toast-success {
+  background-color: #51A351;
+}
+.toast-error {
+  background-color: #BD362F;
+}
+.toast-info {
+  background-color: #2F96B4;
+}
+.toast-warning {
+  background-color: #F89406;
+}
+#toast-container > div {
+  opacity:1;
+}
+.toast-top-full-width {
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+.chart-parent-heated {  min-height: 1000px }
+.chart-parent-pie {  min-height: 300px }
+.chart-parent-bar {  min-height: 400px }
+
+.overlapping-button {
+  position: absolute;
+  z-index: 1;
+}

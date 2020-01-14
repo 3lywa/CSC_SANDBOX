@@ -1,0 +1,47 @@
+<div class="animated fadeIn">
+  <div class="card card-accent-primary">
+    <div class="card-header">
+      <div class="row">
+        <div class="col-md-8">
+          <span class="csc-header">
+            <i class="icon-pie-chart" aria-label="Pie Chart"></i> FACILITIES ({{roles.length}})
+          </span>
+        </div>
+      </div>
+    </div>
+    <table class="table table-responsive-sm table-hover table-outline mb-0">
+      <thead class="bg-secondary">
+        <tr>
+          <th style="width: 45%" class="clickable" (click)="sort('roleId')">Code
+            <i class="fa" [ngClass]="{'fa-sort': column != 'roleId', 'fa-sort-asc': (column == 'roleId' && !isDesc),
+                            'fa-sort-desc': (column == 'roleId' && isDesc) }" aria-hidden="true"></i>
+          </th>
+          <th style="width: 45%" class="clickable" (click)="sort('roleDescEn')">Name
+            <i class="fa" [ngClass]="{'fa-sort': column != 'roleDescEn', 'fa-sort-asc': (column == 'roleDescEn' && !isDesc),
+                              'fa-sort-desc': (column == 'roleDescEn' && isDesc) }" aria-hidden="true"></i>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let role of roles | filter : searchText | orderBy: {property: column, direction: direction} | paginate: { itemsPerPage: ipp, currentPage: cp }; let i = index;">
+          <td>{{role.code}}</td>
+          <td>{{role.header.name.description.en}}</td>
+        </tr>
+        <tr *ngIf="(roles | filter : searchText).length < 1">
+          <td *ngIf="!loading;else spin" colspan="5">{{'placeholder.no_results' | translate}}</td>
+          <ng-template #spin>
+            <td colspan="5"> {{'placeholder.loading' | translate}}
+              <i class="fa fa-spinner fa-spin" aria-label="Loading"></i>
+            </td>
+          </ng-template>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination-footer">
+      <pagination class="justify-content-center" [boundaryLinks]="true" [totalItems]="roles.length" [(ngModel)]="cp"
+        [maxSize]="maxSize" [itemsPerPage]="ipp" (pageChanged)="cp=$event" firstText="&laquo;" lastText="&raquo;">
+      </pagination>
+    </div>
+  </div>
+</div>

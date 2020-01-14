@@ -1,0 +1,10 @@
+<div *ngIf="selectedLang==='en'">
+  <ng-select id="{{id}}" [disabled]="disabled" [ngClass]="ngClass" [items]="items" bindLabel="{{fieldNameEn}}" bindValue="{{fieldId}}"
+    [(ngModel)]="model" name="model" (ngModelChange)="modelChange($event)" [multiple]="multiple" placeholder="{{placeholder | translate}}" class="class">
+  </ng-select>
+</div>
+<div *ngIf="selectedLang==='fr'">
+  <ng-select id="{{id}}" [disabled]="disabled" [ngClass]="ngClass" [items]="items" bindLabel="{{fieldNameFr}}" bindValue="{{fieldId}}"
+    [(ngModel)]="model" name="model" (ngModelChange)="modelChange($event)" [multiple]="multiple" placeholder="{{placeholder | translate}}" class="class">
+  </ng-select>
+</div>

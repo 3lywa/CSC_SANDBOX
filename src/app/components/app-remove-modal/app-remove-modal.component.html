@@ -1,0 +1,23 @@
+<div bsModal #modal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Remove Modal" aria-hidden="true">
+  <div class="modal-dialog modal-danger" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">{{'modal_elements.title' | translate }}</h4>
+        <button type="button" class="close closeModal text-white" (click)="modal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{'modal_elements.message' | translate }} {{ itemName }}?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="run(); modal.hide()" aria-label="Remove">
+          {{ "modal_elements.remove" | translate }}
+        </button>
+        <button type="button" class="btn btn-outline-primary" (click)="modal.hide()" aria-label="Cancel">
+          {{ "modal_elements.cancel" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

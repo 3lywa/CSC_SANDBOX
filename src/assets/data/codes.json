@@ -1,0 +1,6684 @@
+{
+    "results": [
+      {
+        "_id": "5d4430bb6649ab1ff4462463",
+        "code": "3002",
+        "name": "BED TYPE",
+        "description": {
+          "en": "BED TYPE",
+          "fr": "BED TYPE-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "SINGLE",
+            "description": {
+              "en": "SINGLE",
+              "fr": "SINGLE_FR"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "DOUBLE",
+            "description": {
+              "en": "DOUBLE",
+              "fr": "DOUBLE_FR"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "SINGLE BUNK",
+            "description": {
+              "en": "SINGLE BUNK",
+              "fr": "SINGLE BUNK_FR"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "DOUBLE BUNK",
+            "description": {
+              "en": "DOUBLE BUNK",
+              "fr": "DOUBLE BUNK_FR"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462473",
+        "code": "3059",
+        "name": "HEALTH REFERRAL CRITERIA",
+        "description": {
+          "en": "HEALTH REFERRAL CRITERIA",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INMATE REFUSED TO INTERACT WITH OTHERS FOR A PRESCRIBED PER­IOD",
+            "description": {
+              "en": "Inmate refused to interact with others for a prescribed per­iod",
+              "fr": "Le détenu a refusé d’interagir avec les autres durant une période prescrite."
+            }
+          },
+          {
+            "code": "0002",
+            "name": "INMATE EXHIBITED A TENDENCY TO SELF-HARM",
+            "description": {
+              "en": "Inmate exhibited a tendency to self-harm",
+              "fr": "Le détenu a exprimé une tendance à l’automutilation"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "INMATE SHOWED SIGNS OF AN ADVERSE DRUG REACTION",
+            "description": {
+              "en": "Inmate showed signs of an adverse drug reaction",
+              "fr": "Le détenu a montré des signes d’une réaction indésirable à une drogue ou un médicament"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "INMATE SHOWED SIGNS OF EMOTIONAL DISTRESS",
+            "description": {
+              "en": "Inmate showed signs of emotional distress",
+              "fr": "Le détenu a montré des signes de détresse émotionnelle"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462466",
+        "code": "3005",
+        "name": "OAM EXCLUSION CRITERIA",
+        "description": {
+          "en": "OAM EXCLUSION CRITERIA",
+          "fr": "CRITÈRES D'EXCLUSION"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "FUNCTIONAL DISABILITY",
+            "description": {
+              "en": "FUNCTIONAL DISABILITY",
+              "fr": "DÉFICIENCE FONCTIONNELLE"
+            },
+            "items": [
+              {
+                "code": "0001",
+                "description": {
+                  "en": "ILLITERACY",
+                  "fr": "ANALPHABÉTISME"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0002",
+                "description": {
+                  "en": "MODERATE TO PROFOUND INTELLECTUAL DISABILITY",
+                  "fr": "DÉFICIENCE INTELLECTUELLE MODÉRÉE À GRAVE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0040",
+                "description": {
+                  "en": "INTELLECTUAL DEFICIENCY",
+                  "fr": "DÉFICIENCE INTELLECTUELLE"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0002",
+            "name": "PHYSICAL DISABILITY",
+            "description": {
+              "en": "PHYSICAL DISABILITY",
+              "fr": "INCAPACITÉ PHYSIQUE"
+            },
+            "items": [
+              {
+                "code": "0003",
+                "description": {
+                  "en": "REDUCED MOBILITY",
+                  "fr": "MOBILITÉ RÉDUITE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0032",
+                "description": {
+                  "en": "THOSE REQUIRING SPECIALIZED MEDICAL, PHYSICAL AND/OR PSYCHIATRIC TREATMENT",
+                  "fr": "REQUIERT UN TRAITEMENT SPÉCIALISÉE POUR LES TROUBLES MÉDICAUX, PHYSIQUES ET/OU PSYCHIATRIQUE"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0003",
+            "name": "MEDICAL DISABILITY",
+            "description": {
+              "en": "MEDICAL DISABILITY",
+              "fr": "INVALIDITÉ MÉDICALE"
+            },
+            "items": [
+              {
+                "code": "0004",
+                "description": {
+                  "en": "INDIVIDUALS PRESCRIBED ANTI-PSYCHOTICS, NARCOTICS, AND BENZODIAZEPINES",
+                  "fr": "PERSONNES DEVANT PRENDRE DES MÉDICAMENTS ANTIPSYCHOTIQUES, DES NARCOTIQUES ET DE LA BENZODIAZÉPINE QUI LEUR SONT PRESCRITS"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0005",
+                "description": {
+                  "en": "HISTORY OF SERIOUS PSYCHIATRIC DISORDERS",
+                  "fr": "HISTORIQUE DE GRAVES TROUBLES PSYCHIATRIQUES"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0006",
+                "description": {
+                  "en": "PARTICIPANT IN A METHADONE PROGRAM",
+                  "fr": "PERSONNES PARTICIPANT À UN PROGRAMME DE TRAITEMENT À LA MÉTHADONE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0007",
+                "description": {
+                  "en": "NARCOTIC BASED MEDICATION",
+                  "fr": "MÉDICAMENTS NARCOTIQUES"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0032",
+                "description": {
+                  "en": "THOSE REQUIRING SPECIALIZED MEDICAL, PHYSICAL AND/OR PSYCHIATRIC TREATMENT",
+                  "fr": "REQUIERT UN TRAITEMENT SPÉCIALISÉE POUR LES TROUBLES MÉDICAUX, PHYSIQUES ET/OU PSYCHIATRIQUE"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0004",
+            "name": "MENTAL HEALTH",
+            "description": {
+              "en": "MENTAL HEALTH",
+              "fr": "SANTÉ MENTALE"
+            },
+            "items": [
+              {
+                "code": "0008",
+                "description": {
+                  "en": "CURRENT SELF-HARMING BEHAVIOUR",
+                  "fr": "COMPORTEMENT AUTODESTRUCTEUR ACTUEL"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0009",
+                "description": {
+                  "en": "ACTIVELY SUICIDAL",
+                  "fr": "FORTEMENT SUICIDAIRE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0010",
+                "description": {
+                  "en": "PARAPHILIA",
+                  "fr": "PARAPHILIE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0011",
+                "description": {
+                  "en": "PYROMANIA",
+                  "fr": "PYROMANIE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0012",
+                "description": {
+                  "en": "HIGH RISK OF SELF-HARM OR SUICIDE",
+                  "fr": "RISQUE ÉLEVÉ D¿AUTOMUTILATION OU DE SUICIDE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0013",
+                "description": {
+                  "en": "GAMBLING ADDICTION",
+                  "fr": "JEU PATHOLOGIQUE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0030",
+                "description": {
+                  "en": "UNSTABLE MENTAL HEALTH",
+                  "fr": "DISORGANISÉ AU NIVEAU DE LA SANTÉ MENTALE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0032",
+                "description": {
+                  "en": "THOSE REQUIRING SPECIALIZED MEDICAL, PHYSICAL AND/OR PSYCHIATRIC TREATMENT",
+                  "fr": "REQUIERT UN TRAITEMENT SPÉCIALISÉE POUR LES TROUBLES MÉDICAUX, PHYSIQUES ET/OU PSYCHIATRIQUE"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0005",
+            "name": "OFFENCE-BASED CRITERIA",
+            "description": {
+              "en": "OFFENCE-BASED CRITERIA",
+              "fr": "CRITÈRES FONDÉS SUR L¿INFRACTION"
+            },
+            "items": [
+              {
+                "code": "0014",
+                "description": {
+                  "en": "CRIMINAL AFFILLIATION",
+                  "fr": "AFFILIATION CRIMINELLE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0015",
+                "description": {
+                  "en": "SEX OFFENDERS",
+                  "fr": "DÉLINQUANTS SEXUELS"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0016",
+                "description": {
+                  "en": "PEDOPHILIA WITH CHILD UNDER 12 (EXCEPT INCESTUAL FATHERS)",
+                  "fr": "PÉDOPHILIE AVEC UN ENFANT DE MOINS DE 12 ANS (SAUF LES PÈRES INCESTUEUX)"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0017",
+                "description": {
+                  "en": "SEXUAL PREDATORS AND RECIDIVISTS",
+                  "fr": "PRÉDATEURS SEXUELS ET RÉCIDIVISTES"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0018",
+                "description": {
+                  "en": "SEXUAL ASSAULT ON MINOR(S)",
+                  "fr": "AGRESSION SEXUELLE D¿UNE OU PLUSIEURS PERSONNES MINEURES"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0019",
+                "description": {
+                  "en": "HISTORY OR PATTERN OF VIOLENCE",
+                  "fr": "ANTÉCÉDENTS DE VIOLENCE OU COMPORTEMENT DE VIOLENCE PERSISTANTE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0020",
+                "description": {
+                  "en": "ARSONY",
+                  "fr": "INCENDIE CRIMINEL"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0021",
+                "description": {
+                  "en": "OFFENDERS WITH A S.161 PROHIBITION",
+                  "fr": "DÉLINQUANTS ASSUJETTIS AUX INTERDICTIONS PRESCRITES À L¿ARTICLE 161"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0022",
+                "description": {
+                  "en": "KNOWN AND ACTIVE MEMBERS OF ORGANIZED CRIME",
+                  "fr": "MEMBRES ACTIFS ET CONNUS DU CRIME ORGANISÉ"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0023",
+                "description": {
+                  "en": "HIGH RISK OF RECIDIVISM",
+                  "fr": "RISQUE ÉLEVÉ DE RÉCIDIVISME"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0024",
+                "description": {
+                  "en": "LONG TERM SUPERVISION ORDER",
+                  "fr": "ORDONNANCE DE SURVEILLANCE DE LONGUE DURÉE"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0035",
+                "description": {
+                  "en": "CRIMINAL HISTORY OF FIRE STARTING",
+                  "fr": "CERTAINS ANTÉCEDENTS D’INCENDIE CRIMINEL"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0037",
+                "description": {
+                  "en": "HISTORY OF DOMESTIC VIOLENCE",
+                  "fr": "HISTORIQUE DE VIOLENCE CONJUGALE"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0006",
+            "name": "NOT CATEGORIZED",
+            "description": {
+              "en": "NOT CATEGORIZED",
+              "fr": "NON RÉPERTORIÉ"
+            },
+            "items": [
+              {
+                "code": "0028",
+                "description": {
+                  "en": "INDIVIDUALS WHO CANNOT SPEAK ENGLISH OR FRENCH",
+                  "fr": "PERSONNES QUI NE PARLENT NI LE FRANÇAIS NI L¿ANGLAIS"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0029",
+                "description": {
+                  "en": "ENGLISH-ONLY SPEAKING OFFENDERS",
+                  "fr": "DÉLINQUANTS QUI NE PARLENT QUE L¿ANGLAIS"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0030",
+                "description": {
+                  "en": "KNOWN INFORMER",
+                  "fr": "INDICATEUR CONNU"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0031",
+                "description": {
+                  "en": "NO SPECIFIC EXCLUSION",
+                  "fr": "AUCUN CRITÈRE D¿EXCLUSION EN PARTICULIER"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0031",
+                "description": {
+                  "en": "UNMOTIVATED",
+                  "fr": "COMPORTEMENT DÉMONTRANT UN MANQUE DE MOTIVATION"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0033",
+                "description": {
+                  "en": "POSES A HIGH RISK TO STAFF AND/OR RESIDENTS",
+                  "fr": "POSE UN RISQUE ÉLEVÉ AU MEMBRES DU PERSONNEL ET/OU LES RÉSIDENTS."
+                },
+                "status": "R"
+              },
+              {
+                "code": "0034",
+                "description": {
+                  "en": "PENDING DEPORTATION",
+                  "fr": "FAIT FACE À UNE DÉPORTATION"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0036",
+                "description": {
+                  "en": "IN A ROMANTIC/INTIMATE RELATIONSHIP WITH OTHER RESIDENT",
+                  "fr": "DANS UNE RELATION AMOUREUSE/INTIME AVEC UN/UNE AUTRE RESIDENT (E)S"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0038",
+                "description": {
+                  "en": "INADEQUATE RELEASE PLAN",
+                  "fr": "PROJET DE SORTIE INADÉQUAT"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0039",
+                "description": {
+                  "en": "NEGATIVE INSTITUTIONAL BEHAVIOUR",
+                  "fr": "COMPORTEMENTS NÉGATIVE AU SEIN DE L’ÉTABLISSEMENT"
+                },
+                "status": "R"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462467",
+        "code": "3010",
+        "name": "OAM SERVICES",
+        "description": {
+          "en": "OAM SERVICES",
+          "fr": "OAM SERVICES"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INDIGENOUS",
+            "description": {
+              "en": "INDIGENOUS",
+              "fr": "AUTOCHTONES"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "PHYSICAL DISABILITY",
+            "description": {
+              "en": "PHYSICAL DISABILITY",
+              "fr": "HANDICAP PHYSIQUE"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "GERIATRY",
+            "description": {
+              "en": "GERIATRY",
+              "fr": "GÉRIATRIE"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "DAY REPORTING CENTRE",
+            "description": {
+              "en": "DAY REPORTING CENTRE",
+              "fr": "CENTRE DE JOUR"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "VOLUNTARY RESIDENCE",
+            "description": {
+              "en": "VOLUNTARY RESIDENCE",
+              "fr": "RÉSIDENCE VOLONTAIRE"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "MOTHER-CHILD",
+            "description": {
+              "en": "MOTHER-CHILD",
+              "fr": "MÈRE-ENFANT"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "INTENSIVE SUPERVISION",
+            "description": {
+              "en": "INTENSIVE SUPERVISION",
+              "fr": "SUPERVISION ACCRUE"
+            }
+          },
+          {
+            "code": "0008",
+            "name": "PALLIATIVE CARE",
+            "description": {
+              "en": "PALLIATIVE CARE",
+              "fr": "SOINS PALLIATIFS"
+            }
+          },
+          {
+            "code": "0009",
+            "name": "BASIC HEALTH CARE NEEDS",
+            "description": {
+              "en": "BASIC HEALTH CARE NEEDS",
+              "fr": "SERVICE DE SANTÉ DE BASE"
+            }
+          },
+          {
+            "code": "0010",
+            "name": "INTERMEDIATE HEALTH CARE NEEDS",
+            "description": {
+              "en": "INTERMEDIATE HEALTH CARE NEEDS",
+              "fr": "SERVICE DE SANTÉ INTERMÉDIAIRE"
+            }
+          },
+          {
+            "code": "0011",
+            "name": "INTENSIVE HEALTH CARE NEEDS",
+            "description": {
+              "en": "INTENSIVE HEALTH CARE NEEDS",
+              "fr": "SERVICE DE SANTÉ INTENSIVE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462468",
+        "code": "3011",
+        "name": "SPECIALIZED BEDS",
+        "description": {
+          "en": "SPECIALIZED BEDS",
+          "fr": "LITS SPECIALISÉS"
+        },
+        "items": [
+          {
+            "code": "0002",
+            "name": "HIGH NEEDS",
+            "description": {
+              "en": "HIGH NEEDS",
+              "fr": "BESOINS ÉLEVÉS"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "HIGH RISK",
+            "description": {
+              "en": "HIGH RISK",
+              "fr": "RISQUE ÉLEVÉ"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "INDIGENOUS",
+            "description": {
+              "en": "INDIGENOUS",
+              "fr": "AUTOCHTONES"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "MENTAL HEALTH",
+            "description": {
+              "en": "MENTAL HEALTH",
+              "fr": "SANTÉ MENTALE"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "PALLIATIVE CARE",
+            "description": {
+              "en": "PALLIATIVE CARE",
+              "fr": "SOINS PALLIATIFS"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "PROGRAM",
+            "description": {
+              "en": "PROGRAM",
+              "fr": "PROGRAMME"
+            }
+          },
+          {
+            "code": "0008",
+            "name": "STATUTORY RELEASE WITH RESIDENCY",
+            "description": {
+              "en": "STATUTORY RELEASE WITH RESIDENCY",
+              "fr": "LIBÉRATION D'OFFICE AVEC ASSIGNATION À RÉSIDENCE"
+            }
+          },
+          {
+            "code": "0009",
+            "name": "SUBSTANCE ABUSE",
+            "description": {
+              "en": "SUBSTANCE ABUSE",
+              "fr": "TOXICOMANIE"
+            }
+          },
+          {
+            "code": "0010",
+            "name": "TRANSITION",
+            "description": {
+              "en": "TRANSITION",
+              "fr": "TRANSITIONNEL"
+            }
+          },
+          {
+            "code": "0011",
+            "name": "TREATMENT",
+            "description": {
+              "en": "TREATMENT",
+              "fr": "TRAITEMENT"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4975fdbc5bf4382ea9e0cc",
+        "code": "3013",
+        "name": "PLACEMENT PURPOSE",
+        "description": {
+          "en": "PLACEMENT PURPOSE",
+          "fr": "PLACEMENT PURPOSE-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "RELEASE PLANNING",
+            "description": {
+              "en": "RELEASE PLANNING",
+              "fr": "PLANIFICATION DE LA MISE EN LIBERTÉ"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "TRANSFER OF SUPERVISION",
+            "description": {
+              "en": "TRANSFER OF SUPERVISION",
+              "fr": "TRANSFERT DE SURVEILLANCE"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "POST RELEASE PLANNING",
+            "description": {
+              "en": "POST RELEASE PLANNING",
+              "fr": "PLANIFICATION POST-LIBÉRATOIRE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446247d",
+        "code": "3069",
+        "name": "TYPE",
+        "description": {
+          "en": "TYPE",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MEANININGFUL INTERACTION",
+            "description": {
+              "en": "Meaniningful Interaction",
+              "fr": "Interaction véritable"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "TIME OUTSIDE CELL",
+            "description": {
+              "en": "Time Outside Cell",
+              "fr": "Temps hors cellule"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "BOTH",
+            "description": {
+              "en": "Both",
+              "fr": "Les deux"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "NEITHER",
+            "description": {
+              "en": "Neither",
+              "fr": "Ni l’un ni l’autre"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d56ae984bf64e1fa8dd6a1f",
+        "code": "3015",
+        "name": "PLACEMENT/RESERVATION STATUS",
+        "description": {
+          "en": "PLACEMENT/RESERVATION STATUS",
+          "fr": "STATUT DU PLACEMENT/DE LA RÉSERVATION"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "ACCEPTED",
+            "description": {
+              "en": "ACCEPTED",
+              "fr": "ACCEPTÉ"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "REFUSED",
+            "description": {
+              "en": "REFUSED",
+              "fr": "REFUSÉ"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "PENDING ACCEPTANCE",
+            "description": {
+              "en": "PENDING ACCEPTANCE",
+              "fr": "EN ATTENTE D’ACCEPTATION"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "OCCUPIED",
+            "description": {
+              "en": "OCCUPIED",
+              "fr": "OCCUPÉ"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "RESERVED",
+            "description": {
+              "en": "RESERVED",
+              "fr": "RÉSERVÉ"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "REMOVED",
+            "description": {
+              "en": "REMOVED",
+              "fr": "RETIRÉ"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "UNOCCUPY",
+            "description": {
+              "en": "VACATED",
+              "fr": "LIBRE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d5c4482b8a226d5fd3bc73f",
+        "code": "3072",
+        "name": "NONCOMPLIANT OUTCOMES",
+        "description": {
+          "en": "NONCOMPLIANT OUTCOMES",
+          "fr": "FR_NONCOMPLIANT OUTCOMES"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "DOES NOT COMPLY TO REASONABLE INSTRUCTIONS",
+            "description": {
+              "en": "Does not comply to reasonable instructions",
+              "fr": "Ne se conforme pas a des instructions raisonnables"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "NOT INTERESTED - DOES NOT AVAIL THE OPPORTUNITY",
+            "description": {
+              "en": "Not interested - does not avail the opportunity",
+              "fr": "Pas intéressé -  ne profite pas de l'occasion"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "DOES NOT WANT TO ASSOCIATE WITH OTHERS",
+            "description": {
+              "en": "Does not want to associate with others",
+              "fr": "Ne veut pas s'associer aux autres"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "VERBALLY/PHYSICALLY UNCOOPERATIVE",
+            "description": {
+              "en": "Verbally/Physically uncooperative",
+              "fr": " Verbalement / physiquement non coopératif"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "INMATE CHOSE TO LEAVE THE ACTIVITY EARLY",
+            "description": {
+              "en": "Inmate chose to leave the activity early",
+              "fr": "Le délinquant a choisi de quitter l'activité tôt "
+            }
+          },
+          {
+            "code": "0006",
+            "name": "HEALTH REASONS",
+            "description": {
+              "en": "Health reasons",
+              "fr": "Raisons de santé"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "PRESCRIBED CIRCUMSTANCES",
+            "description": {
+              "en": "Prescribed circumstances",
+              "fr": " Circonstances prescrites"
+            }
+          },
+          {
+            "code": "0008",
+            "name": "OPERATIONAL INCIDENT IN THE SIU",
+            "description": {
+              "en": "Operational incident in the SIU",
+              "fr": "Incident opérationnel dans l'UIS"
+            }
+          },
+          {
+            "code": "0009",
+            "name": "OTHER",
+            "description": {
+              "en": "Other",
+              "fr": "Autre"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d7a758fb8a226d5fdf0d60a",
+        "code": "3078",
+        "name": "AUTHORIZATION ROLES",
+        "description": {
+          "en": "AUTHORIZATION ROLES",
+          "fr": "AUTHORIZATION ROLES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "AWI",
+            "description": {
+              "en": "Assistant Warden, Interventions (AWI)",
+              "fr": "Directeur Adjoint, Interventions (DAI)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "AWO",
+            "description": {
+              "en": "Assistant Warden, Operations (AWO)",
+              "fr": "Directeur Adjoint, Opérations (DAO)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "CM",
+            "description": {
+              "en": "Correctional Manager (CM)",
+              "fr": "Gestionnaire Correctionnel (GC)"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d949f5b8a93ea06f6270536",
+        "code": "3087",
+        "name": "CONSULTANT ROLES",
+        "description": {
+          "en": "CONSULTANT ROLES",
+          "fr": "CONSULTANT ROLES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "SPIRITUAL LEADER",
+            "description": {
+              "en": "Spiritual Leader",
+              "fr": "Leader spirituel"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "HEALTH CARE",
+            "description": {
+              "en": "Health Care",
+              "fr": "Soins de santé"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "PAROLE OFFICER",
+            "description": {
+              "en": "PAROLE OFFICER",
+              "fr": "Agent de libération conditionnelle"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "SECURITY INTELLIGENCE",
+            "description": {
+              "en": "Security Intelligence",
+              "fr": "Securité renseignement"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "ELDER",
+            "description": {
+              "en": "Elder",
+              "fr": "ainé"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfa3cee1f10d912b9b82",
+        "code": "00160001",
+        "name": "PROVINCE/TERRITORIES",
+        "description": {
+          "en": "PROVINCE/TERRITORIES",
+          "fr": "PROVINCES/TERRITOIRES"
+        },
+        "shortDescription": {
+          "en": "PROVINCE/TERRIT",
+          "fr": "PROVINCES/TERRI"
+        },
+        "abbreviation": {
+          "en": "PROV",
+          "fr": "PROV"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "ALBERTA",
+            "description": {
+              "en": "ALBERTA",
+              "fr": "ALBERTA"
+            },
+            "shortDescription": {
+              "en": "ALBERTA",
+              "fr": "ALBERTA"
+            },
+            "abbreviation": {
+              "en": "AB",
+              "fr": "ALB"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "BRITISH COLUMBIA",
+            "description": {
+              "en": "BRITISH COLUMBIA",
+              "fr": "COLOMBIE-BRITANNIQUE"
+            },
+            "shortDescription": {
+              "en": "BRITISH COLUMBI",
+              "fr": "COLOMBIE-BRITAN"
+            },
+            "abbreviation": {
+              "en": "BC",
+              "fr": "CB"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "MANITOBA",
+            "description": {
+              "en": "MANITOBA",
+              "fr": "MANITOBA"
+            },
+            "shortDescription": {
+              "en": "MANITOBA",
+              "fr": "MANITOBA"
+            },
+            "abbreviation": {
+              "en": "MB",
+              "fr": "MAN"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "NEW BRUNSWICK",
+            "description": {
+              "en": "NEW BRUNSWICK",
+              "fr": "NOUVEAU-BRUNSWICK"
+            },
+            "shortDescription": {
+              "en": "NEW BRUNSWICK",
+              "fr": "NOUVEAU-BRUNSWI"
+            },
+            "abbreviation": {
+              "en": "NB",
+              "fr": "NB"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "NEWFOUNDLAND AND LABRADOR",
+            "description": {
+              "en": "NEWFOUNDLAND AND LABRADOR",
+              "fr": "TERRE-NEUVE ET LABRADOR"
+            },
+            "shortDescription": {
+              "en": "NFLD AND LAB",
+              "fr": "T-N ET LAB"
+            },
+            "abbreviation": {
+              "en": "NL",
+              "fr": "NL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "NORTHWEST TERRITORIES",
+            "description": {
+              "en": "NORTHWEST TERRITORIES",
+              "fr": "TERRITOIRES DU NORD-OUEST"
+            },
+            "shortDescription": {
+              "en": "NORTHWEST TERRI",
+              "fr": "TERRITOIRES DU"
+            },
+            "abbreviation": {
+              "en": "NT",
+              "fr": "TNO"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "NOVA SCOTIA",
+            "description": {
+              "en": "NOVA SCOTIA",
+              "fr": "NOUVELLE-ÉCOSSE"
+            },
+            "shortDescription": {
+              "en": "NOVA SCOTIA",
+              "fr": "NOUVELLE-ÉCOSSE"
+            },
+            "abbreviation": {
+              "en": "NS",
+              "fr": "NE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "ONTARIO",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            },
+            "shortDescription": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            },
+            "abbreviation": {
+              "en": "ON",
+              "fr": "ONT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0009",
+            "name": "PRINCE EDWARD ISLAND",
+            "description": {
+              "en": "PRINCE EDWARD ISLAND",
+              "fr": "ÎLE-DU-PRINCE-ÉDOUARD"
+            },
+            "shortDescription": {
+              "en": "PRINCE EDWARD I",
+              "fr": "ÎLE-DU-PRINCE-É"
+            },
+            "abbreviation": {
+              "en": "PEI",
+              "fr": "IPE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0010",
+            "name": "QUEBEC",
+            "description": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            },
+            "shortDescription": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            },
+            "abbreviation": {
+              "en": "QC",
+              "fr": "QC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0011",
+            "name": "SASKATCHEWAN",
+            "description": {
+              "en": "SASKATCHEWAN",
+              "fr": "SASKATCHEWAN"
+            },
+            "shortDescription": {
+              "en": "SASKATCHEWAN",
+              "fr": "SASKATCHEWAN"
+            },
+            "abbreviation": {
+              "en": "SK",
+              "fr": "SASK"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0012",
+            "name": "YUKON TERRITORIES",
+            "description": {
+              "en": "YUKON TERRITORIES",
+              "fr": "TERRITOIRES DU YUKON"
+            },
+            "shortDescription": {
+              "en": "YUKON TERRITORI",
+              "fr": "TERRITOIRES DU"
+            },
+            "abbreviation": {
+              "en": "YT",
+              "fr": "YUK"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0013",
+            "name": "NUNAVUT",
+            "description": {
+              "en": "NUNAVUT",
+              "fr": "NUNAVUT"
+            },
+            "shortDescription": {
+              "en": "NUNAVUT",
+              "fr": "NUNAVUT"
+            },
+            "abbreviation": {
+              "en": "NUNA",
+              "fr": "NUNA"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446246c",
+        "code": "3050",
+        "name": "STATUS",
+        "description": {
+          "en": "STATUS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PENDING",
+            "description": {
+              "en": "Pending",
+              "fr": "En suspens"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "ACTIVE",
+            "description": {
+              "en": "Active",
+              "fr": "Actif(ve)"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "COMPLETED",
+            "description": {
+              "en": "Completed",
+              "fr": "Terminé"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "CANCELLED",
+            "description": {
+              "en": "Cancelled",
+              "fr": "Annulé"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff446246b",
+        "code": "3007",
+        "name": "CBRF TYPE",
+        "description": {
+          "en": "CBRF TYPE",
+          "fr": "TYPE D'ERC"
+        },
+        "items": [
+          {
+            "code": "0009",
+            "name": "COMMUNITY CORRECTIONAL CENTRE",
+            "description": {
+              "en": "COMMUNITY CORRECTIONAL CENTRE",
+              "fr": "CENTRE CORRECTIONNEL COMMUN."
+            }
+          },
+          {
+            "code": "0011",
+            "name": "COMMUNITY RESIDENTIAL FACILITY",
+            "description": {
+              "en": "COMMUNITY RESIDENTIAL FACILITY",
+              "fr": "CENTRE RÉSIDENTIEL COMMUNAUTAIRE"
+            }
+          },
+          {
+            "code": "1102",
+            "name": "HOSTEL",
+            "description": {
+              "en": "HOSTEL",
+              "fr": "FOYER"
+            }
+          },
+          {
+            "code": "1103",
+            "name": "PRIVATE HOME PLACEMENT",
+            "description": {
+              "en": "PRIVATE HOME PLACEMENT",
+              "fr": "PLACEMENT EN MAISON PRIVÉE"
+            }
+          },
+          {
+            "code": "1104",
+            "name": "COMMUNITY HOUSING CENTRE",
+            "description": {
+              "en": "COMMUNITY HOUSING CENTRE",
+              "fr": "CENTRE D'HÉBERGEMENT COMMUNAUTAIRE"
+            }
+          },
+          {
+            "code": "1105",
+            "name": "SATELLITE APPARTMENT",
+            "description": {
+              "en": "SATELLITE APPARTMENT",
+              "fr": "APPARTEMENT SATELLITE"
+            }
+          },
+          {
+            "code": "1106",
+            "name": "SUPERVISED APARTMENTS",
+            "description": {
+              "en": "SUPERVISED APARTMENTS",
+              "fr": "APPARTEMENT SUPERVISÉ"
+            }
+          },
+          {
+            "code": "1107",
+            "name": "TREATMENT CENTRE",
+            "description": {
+              "en": "TREATMENT CENTRE",
+              "fr": "CENTRE DE TRAITEMENT"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d5be915b8a226d5fd2c0fa7",
+        "code": "3071",
+        "name": "THREAT RISK ASSESSMENT",
+        "description": {
+          "en": "THREAT RISK ASSESSMENT",
+          "fr": "THREAT RISK ASSESSMENT-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NO ASSOCIATION TYPE",
+            "description": {
+              "en": "NO ASSOCIATION TYPE",
+              "fr": "NO ASSOCIATION TYPE-FR"
+            },
+            "items": [
+              {
+                "code": "0001",
+                "name": "INVESTIGATION",
+                "description": {
+                  "en": "Investigation",
+                  "fr": "Enquête"
+                }
+              },
+              {
+                "code": "0002",
+                "name": "INCOMPATIBLES",
+                "description": {
+                  "en": "Incompatibles",
+                  "fr": "Incompatibles"
+                }
+              },
+              {
+                "code": "0003",
+                "name": "SECURITY CONCERNS",
+                "description": {
+                  "en": "Security Concerns",
+                  "fr": "Préoccupation de sécurité"
+                }
+              }
+            ]
+          },
+          {
+            "code": "0002",
+            "name": "ASSOCIATION TYPE",
+            "description": {
+              "en": "ASSOCIATION TYPE",
+              "fr": "ASSOCIATION TYPE-FR"
+            },
+            "items": [
+              {
+                "code": "0001",
+                "name": "ALL",
+                "description": {
+                  "en": "All",
+                  "fr": "Tous"
+                }
+              },
+              {
+                "code": "0002",
+                "name": "WITH RESTRICTIONS",
+                "description": {
+                  "en": "With restrictions",
+                  "fr": "avec restrictions"
+                }
+              }
+            ]
+          },
+          {
+            "code": "0003",
+            "name": "DEMONSTRATED BEHAVIORS",
+            "description": {
+              "en": "DEMONSTRATED BEHAVIORS",
+              "fr": "DEMONSTRATED BEHAVIORS-FR"
+            },
+            "items": [
+              {
+                "code": "0001",
+                "name": "NON COMPLIANT WITH STAFF",
+                "description": {
+                  "en": "Non Compliant with staff",
+                  "fr": "Non conforme avec le personnel"
+                }
+              },
+              {
+                "code": "0002",
+                "name": "THREATENING TOWARD STAFF (VERBAL)",
+                "description": {
+                  "en": "Threatening toward staff (verbal and or physically)",
+                  "fr": "Menaçant envers le personnel (verbalement et/ou physiquement)"
+                }
+              },
+              {
+                "code": "0003",
+                "name": "THREATENING TOWARD OFFENDERS (PHYSICALLY)",
+                "description": {
+                  "en": "Threatening toward offenders (verbal and or physically)",
+                  "fr": "Menaçant envers les délinquants (verbalement et/ou physiquement)"
+                }
+              },
+              {
+                "code": "0004",
+                "name": "ASSAULTIVE TOWARD STAFF",
+                "description": {
+                  "en": "Assaultive toward staff",
+                  "fr": "Agressif avec le personnel"
+                }
+              },
+              {
+                "code": "0005",
+                "name": "ASSAULTIVE TOWARD OFFENDERS",
+                "description": {
+                  "en": "Assaultive toward offenders",
+                  "fr": "Agressif avec les délinquants"
+                }
+              },
+              {
+                "code": "0006",
+                "name": "Compliant with staff",
+                "description": {
+                  "en": "Compliant with staff",
+                  "fr": "Conforme avec le personnel"
+                }
+              }
+            ]
+          },
+          {
+            "code": "0004",
+            "name": "REASON MEDIATION",
+            "description": {
+              "en": "REASON MEDIATION",
+              "fr": "REASON MEDIATION-FR"
+            },
+            "items": [
+              {
+                "code": "0001",
+                "name": "SIU OFFENDER NOT INTERESTED",
+                "description": {
+                  "en": "SIU Offender not interested",
+                  "fr": "Délinquant USI non intéressé"
+                }
+              },
+              {
+                "code": "0002",
+                "name": "OTHER OFFENDER NOT INTERESTED)",
+                "description": {
+                  "en": "Other Offender not interested",
+                  "fr": "Autre Délinquant non intéressé"
+                }
+              },
+              {
+                "code": "0003",
+                "name": "NOT VIABLE DUE TO SECURITY CONCERNS",
+                "description": {
+                  "en": "Not viable due to security concerns",
+                  "fr": "Non viable due a des préoccupations de sécurité"
+                }
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfbccee1f10d912bae10",
+        "code": "2000",
+        "name": "REGION TABLE",
+        "description": {
+          "en": "REGION TABLE",
+          "fr": "TABLE DES RÉGIONS"
+        },
+        "shortDescription": {
+          "en": "REGION TABLE",
+          "fr": "TABLE REGIONS"
+        },
+        "abbreviation": {
+          "en": "REGI",
+          "fr": "REGI"
+        },
+        "items": [
+          {
+            "code": "0002",
+            "name": "ATLANTIC",
+            "description": {
+              "en": "ATLANTIC",
+              "fr": "ATLANTIQUE"
+            },
+            "shortDescription": {
+              "en": "ATLANTIC",
+              "fr": "ATLANTIQUE"
+            },
+            "abbreviation": {
+              "en": "ATLA",
+              "fr": "ATLA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "QUEBEC",
+            "description": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            },
+            "shortDescription": {
+              "en": "QUEBEC",
+              "fr": "QUÉBEC"
+            },
+            "abbreviation": {
+              "en": "QUEB",
+              "fr": "QUEB"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "ONTARIO",
+            "description": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            },
+            "shortDescription": {
+              "en": "ONTARIO",
+              "fr": "ONTARIO"
+            },
+            "abbreviation": {
+              "en": "ONTA",
+              "fr": "ONTA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "PRAIRIES",
+            "description": {
+              "en": "PRAIRIES",
+              "fr": "PRAIRIES"
+            },
+            "shortDescription": {
+              "en": "PRAIRIES",
+              "fr": "PRAIRIES"
+            },
+            "abbreviation": {
+              "en": "PRAR",
+              "fr": "PRAR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "PACIFIC",
+            "description": {
+              "en": "PACIFIC",
+              "fr": "PACIFIQUE"
+            },
+            "shortDescription": {
+              "en": "PACIFIC",
+              "fr": "PACIFIQUE"
+            },
+            "abbreviation": {
+              "en": "PACI",
+              "fr": "PACI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0010",
+            "name": "NATIONAL",
+            "description": {
+              "en": "NATIONAL",
+              "fr": "NATIONALE"
+            },
+            "shortDescription": {
+              "en": "NATIONAL",
+              "fr": "NATIONALE"
+            },
+            "abbreviation": {
+              "en": "NATA",
+              "fr": "NATA"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM",
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfb6cee1f10d912ba8e5",
+        "code": "0618",
+        "name": "INTERVENTION TYPE TABLE",
+        "description": {
+          "en": "INTERVENTION TYPE TABLE",
+          "fr": "TYPES D'INTERVENTION"
+        },
+        "shortDescription": {
+          "en": "INTERVENTION TY",
+          "fr": "X"
+        },
+        "abbreviation": {
+          "en": "ZZZZ",
+          "fr": "ZZZZ"
+        },
+        "items": [
+          {
+            "code": "0002",
+            "name": "TREATMENT",
+            "description": {
+              "en": "TREATMENT",
+              "fr": "TRAITEMENT"
+            },
+            "shortDescription": {
+              "en": "TREATMENT",
+              "fr": "TRAITEMENT"
+            },
+            "abbreviation": {
+              "en": "TREA",
+              "fr": "TRAI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "EDUCATION",
+            "description": {
+              "en": "EDUCATION",
+              "fr": "ÉDUCATION"
+            },
+            "shortDescription": {
+              "en": "EDUCATION",
+              "fr": "ÉDUCATION"
+            },
+            "abbreviation": {
+              "en": "EDUC",
+              "fr": "EDUC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "OTHER",
+            "description": {
+              "en": "OTHER",
+              "fr": "AUTRE"
+            },
+            "shortDescription": {
+              "en": "OTHER",
+              "fr": "AUTRE"
+            },
+            "abbreviation": {
+              "en": "OTHE",
+              "fr": "AUT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "RELAPSE PREVENTION",
+            "description": {
+              "en": "RELAPSE PREVENTION",
+              "fr": "PRÉVENIR LA RÉCIDIVE"
+            },
+            "shortDescription": {
+              "en": "RELAPSE PREVENT",
+              "fr": "PRÉVENIR RÉCID."
+            },
+            "abbreviation": {
+              "en": "REL",
+              "fr": "RÉC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "EMPLOYMENT",
+            "description": {
+              "en": "EMPLOYMENT",
+              "fr": "EMPLOI"
+            },
+            "shortDescription": {
+              "en": "EMPLOYMENT",
+              "fr": "EMPLOI"
+            },
+            "abbreviation": {
+              "en": "EMPL",
+              "fr": "EMPL"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d31bfbccee1f10d912bae1c",
+        "code": "2001",
+        "name": "OPERATIONAL UNIT TABLE",
+        "description": {
+          "en": "OPERATIONAL UNIT TABLE",
+          "fr": "TABLE DES UNITÉS OPÉRATIONNELS"
+        },
+        "shortDescription": {
+          "en": "OPERATION UNIT",
+          "fr": "UNITÉ OPÉR."
+        },
+        "abbreviation": {
+          "en": "OPER",
+          "fr": "OPER"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INSTITUTIONAL",
+            "description": {
+              "en": "INSTITUTIONAL",
+              "fr": "ÉTABLISSEMENT"
+            },
+            "shortDescription": {
+              "en": "INSTITUTIONAL",
+              "fr": "ÉTABLISSEMENT"
+            },
+            "abbreviation": {
+              "en": "INST",
+              "fr": "ETAB"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "COMMUNITY",
+            "description": {
+              "en": "COMMUNITY",
+              "fr": "COMMUNAUTÉ"
+            },
+            "shortDescription": {
+              "en": "COMMUNITY",
+              "fr": "COMMUNAUTÉ"
+            },
+            "abbreviation": {
+              "en": "COMM",
+              "fr": "COMM"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "TOTAL",
+            "description": {
+              "en": "TOTAL",
+              "fr": "TOTALE"
+            },
+            "shortDescription": {
+              "en": "TOTAL",
+              "fr": "TOTALE"
+            },
+            "abbreviation": {
+              "en": "TOTA",
+              "fr": "TOTA"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446246d",
+        "code": "3051",
+        "name": "SECURITY CLASS",
+        "description": {
+          "en": "SECURITY CLASS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MINIMUM",
+            "description": {
+              "en": "Minimum",
+              "fr": "Minimale"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "MEDIUM",
+            "description": {
+              "en": "Medium",
+              "fr": "Moyenne"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "MAXIMUM",
+            "description": {
+              "en": "Maximum",
+              "fr": "Maximale"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4975fdbc5bf4382ea9e0fc",
+        "code": "3014",
+        "name": "RELEASE TYPES",
+        "description": {
+          "en": "RELEASE TYPES",
+          "fr": "TYPE DE LIBÉRATION"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "UNESCORTED TEMPORARY ABSENCE",
+            "description": {
+              "en": "UNESCORTED TEMPORARY ABSENCE",
+              "fr": "PERMISSION DE SORTIR SANS ESCORTE"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "WORK RELEASE",
+            "description": {
+              "en": "WORK RELEASE",
+              "fr": "PLACEMENT À L’EXTÉRIEUR"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "DAY PAROLE",
+            "description": {
+              "en": "DAY PAROLE",
+              "fr": "SEMI-LIBERTÉ"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "FULL PAROLE",
+            "description": {
+              "en": "FULL PAROLE",
+              "fr": "LIBÉRATION CONDITIONNELLE TOTALE"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "STATUTORY RELEASE",
+            "description": {
+              "en": "STATUTORY RELEASE",
+              "fr": "LIBÉRATION D’OFFICE"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "LONG-TERM SUPERVISION ORDER",
+            "description": {
+              "en": "LONG-TERM SUPERVISION ORDER",
+              "fr": "ORDONNANCE DE SURVEILLANCE DE LONGUE DURÉE"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "ONE-CHANCE STATUTORY RELEASE",
+            "description": {
+              "en": "ONE-CHANCE STATUTORY RELEASE",
+              "fr": "LIBÉRATION D'OFFICE À OCTROI UNIQUE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d8b9bf18a93ea06f67f20d9",
+        "code": "3079",
+        "name": "SIU REVIEW TYPES",
+        "description": {
+          "en": "SIU REVIEW TYPES",
+          "fr": "SIU REVIEW TYPES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "SIU TRANSFER DECISION",
+            "description": {
+              "en": "SIU Transfer Decision",
+              "fr": "Décision de transfèrement UIS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "SIU REVIEW 30 DAY IH",
+            "description": {
+              "en": "SIU Review 30 Day Institutional Head",
+              "fr": "Examen UIS 30 jours Directeur"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "AD HOC REVIEWS",
+            "description": {
+              "en": "Ad Hoc Reviews",
+              "fr": "Réexament ponctuel"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "REGIONAL REVIEW",
+            "description": {
+              "en": "Regional Review",
+              "fr": "Examen régional"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "SENIOR DEPUTY...",
+            "description": {
+              "en": "Senior Deputy Commissioner Review",
+              "fr": "Examen du sous commissaire principal"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "HEALTH COMMITTEE REVIEW",
+            "description": {
+              "en": "Health Committee Review",
+              "fr": "examen du comité de santé"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff446246a",
+        "code": "3008",
+        "name": "INTERVENTIONS",
+        "description": {
+          "en": "INTERVENTIONS",
+          "fr": "INTERVENTIONS"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MENTAL HEALTH",
+            "description": {
+              "en": "MENTAL HEALTH",
+              "fr": "SANTÉ MENTALE"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "SUBSTANCE ABUSE",
+            "description": {
+              "en": "SUBSTANCE ABUSE",
+              "fr": "TOXICOMANIE"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "EMPLOYMENT",
+            "description": {
+              "en": "EMPLOYMENT",
+              "fr": "EMPLOIS"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "EDUCATION",
+            "description": {
+              "en": "EDUCATION",
+              "fr": "ÉDUCATION"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "STRUCTURED",
+            "description": {
+              "en": "STRUCTURED",
+              "fr": "LEISURE LOISIRS STRUCTURÉS"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "LIFE SKILLS",
+            "description": {
+              "en": "LIFE SKILLS",
+              "fr": "APTITUDES À LA VIE QUOTIDIENNE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462479",
+        "code": "3065",
+        "name": "CASEREVIEW CONSIDERATIONS",
+        "description": {
+          "en": "CASE REVIEW CONSIDERATIONS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "REVIEWED THE INMATE’S CORRECTIONAL PLAN",
+            "description": {
+              "en": "Reviewed the inmate’s correctional plan",
+              "fr": "Plan correctionnel du détenu examiné"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "REVIEWED THE APPROPRIATENESS OF THE INMATE’S CONFINEMENT IN THE PENITENTIARY",
+            "description": {
+              "en": "Reviewed the appropriateness of the inmate’s confinement in the penitentiary",
+              "fr": "Pertinence de la détention du détenu dans le pénitencier examinée"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446247a",
+        "code": "3066",
+        "name": "ROLES",
+        "description": {
+          "en": "ROLES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "FRONT LINE STAFF",
+            "description": {
+              "en": "Front Line Staff",
+              "fr": "Personnel de première ligne"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Correctional Officer",
+                  "nameFr": "Agent correctionnel"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Institutional Parole Officer",
+                  "nameFr": "Agent de libération conditionnelle en établissement"
+                },
+                {
+                  "id": 3,
+                  "nameEn": "Correctional Program Officer",
+                  "nameFr": "Agent de programmes correctionnels"
+                },
+                {
+                  "id": 4,
+                  "nameEn": "Social Program Officer",
+                  "nameFr": "Agent des programmes sociaux"
+                },
+                {
+                  "id": 4,
+                  "nameEn": "Aboriginal Liason Officer",
+                  "nameFr": "Agent de liaison autochtone"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0002",
+            "name": "REGISTERED HEALTH CARE PROFESSIONAL",
+            "description": {
+              "en": "Registered Health Care Professional",
+              "fr": "Professionnel de la santé agréé"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Doctor",
+                  "nameFr": "Médecin"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Nurse",
+                  "nameFr": "Personnel infirmier"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0003",
+            "name": "UNIT MANAGER",
+            "description": {
+              "en": "Unit Manager",
+              "fr": "Gestionnaire d’unité"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Correctional Manager",
+                  "nameFr": "Gestionnaire correctionnel"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Manager Assessment and Intervention",
+                  "nameFr": "Gestionnaire, Évaluation et interventions"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0004",
+            "name": "UNIT DIRECTOR",
+            "description": {
+              "en": "Unit Director",
+              "fr": "Directeur d’unité"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Institutional Head",
+                  "nameFr": "Directeur de l’établissement"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0005",
+            "name": "ADMINISTRATOR",
+            "description": {
+              "en": "Administrator",
+              "fr": "Administrateur"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "System Admin",
+                  "nameFr": "Administrateur du système"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "IT Admin",
+                  "nameFr": "Administrateur informatique"
+                }
+              ]
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d652c9eb8a226d5fdcc1c02",
+        "code": "3074",
+        "name": "SOCIALPROGRAMS",
+        "description": {
+          "en": "SOCIAL PROGRAMS",
+          "fr": "fr_SOCIAL PROGRAMS"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PERSONAL DEVELOPMENT",
+            "description": {
+              "en": "Personal Development",
+              "fr": "Développement personnel"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "PHYSICAL WELLNESS",
+            "description": {
+              "en": "Physical Wellness",
+              "fr": "Bien-être physique"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "PRO-SOCIAL HOBBIES",
+            "description": {
+              "en": "Pro-social Hobbies",
+              "fr": "Loisirs sociaux"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "PRO-SOCIAL DEVELOPMENT",
+            "description": {
+              "en": "Pro-social Development",
+              "fr": "Développement prosocial"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfb4cee1f10d912ba801",
+        "code": "0502",
+        "name": "BED KIND TABLE",
+        "description": {
+          "en": "BED KIND TABLE",
+          "fr": "BED KIND TABLE"
+        },
+        "shortDescription": {
+          "en": "BED KIND TABLE",
+          "fr": "BED KIND TABLE"
+        },
+        "abbreviation": {
+          "en": "ZZZZ",
+          "fr": "ZZZZ"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PERMANENT",
+            "description": {
+              "en": "PERMANENT",
+              "fr": "PERMANENT"
+            },
+            "shortDescription": {
+              "en": "PERMANENT",
+              "fr": "PERMANENT"
+            },
+            "abbreviation": {
+              "en": "PERM",
+              "fr": "PERM"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "TEMPORARY",
+            "description": {
+              "en": "TEMPORARY",
+              "fr": "TEMPORAIRE"
+            },
+            "shortDescription": {
+              "en": "TEMPORARY",
+              "fr": "TEMPORAIRE"
+            },
+            "abbreviation": {
+              "en": "TEMP",
+              "fr": "TEMP"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d31bfa4cee1f10d912b9bef",
+        "code": "0024",
+        "name": "FACILITY TYPE",
+        "description": {
+          "en": "FACILITY TYPE",
+          "fr": "TYPES D'EMPLACEMENTS"
+        },
+        "shortDescription": {
+          "en": "FACILITY TYPE",
+          "fr": "TYPES D'EMPLACE"
+        },
+        "abbreviation": {
+          "en": "FACI",
+          "fr": "TYPE"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "CSC - NHQ",
+            "description": {
+              "en": "CSC - NHQ",
+              "fr": "SCC - AC"
+            },
+            "shortDescription": {
+              "en": "CSC - NHQ",
+              "fr": "SCC - AC"
+            },
+            "abbreviation": {
+              "en": "CSCN",
+              "fr": "SCAC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "PBC - NHQ",
+            "description": {
+              "en": "PBC - NHQ",
+              "fr": "CLCC - AC"
+            },
+            "shortDescription": {
+              "en": "PBC - NHQ",
+              "fr": "CLCC - AC"
+            },
+            "abbreviation": {
+              "en": "PBCN",
+              "fr": "CLAC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "RCMP - CPIC",
+            "description": {
+              "en": "RCMP - CPIC",
+              "fr": "GRC - CIPC"
+            },
+            "shortDescription": {
+              "en": "RCMP - CPIC",
+              "fr": "GRC - CIPC"
+            },
+            "abbreviation": {
+              "en": "CPIC",
+              "fr": "CIPC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "CSC - RHQ",
+            "description": {
+              "en": "CSC - RHQ",
+              "fr": "SCC - AR"
+            },
+            "shortDescription": {
+              "en": "CSC - RHQ",
+              "fr": "SCC - AR"
+            },
+            "abbreviation": {
+              "en": "CSCR",
+              "fr": "SCAR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "PBC REGIONAL OFFICE",
+            "description": {
+              "en": "PBC REGIONAL OFFICE",
+              "fr": "BUREAU RÉGIONAL CLCC"
+            },
+            "shortDescription": {
+              "en": "PBC OFFICE",
+              "fr": "BUREAU CLCC"
+            },
+            "abbreviation": {
+              "en": "PBCO",
+              "fr": "BLCC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "DISTRICT OFFICE",
+            "description": {
+              "en": "DISTRICT OFFICE",
+              "fr": "BUREAU DE DISTRICT"
+            },
+            "shortDescription": {
+              "en": "DISTRICT OFFICE",
+              "fr": "BUREAU DE DISTR"
+            },
+            "abbreviation": {
+              "en": "DO",
+              "fr": "BD"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "FEDERAL INSTITUTION",
+            "description": {
+              "en": "FEDERAL INSTITUTION",
+              "fr": "ÉTABLISSEMENT FÉDÉRAL"
+            },
+            "shortDescription": {
+              "en": "FEDERAL INSTITU",
+              "fr": "ÉTABLISSEMENT F"
+            },
+            "abbreviation": {
+              "en": "FI",
+              "fr": "EF"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "PROVINCIAL INSTITUTION",
+            "description": {
+              "en": "PROVINCIAL INSTITUTION",
+              "fr": "ÉTABLISSEMENT PROVINCIAL"
+            },
+            "shortDescription": {
+              "en": "PROVINCIAL INST",
+              "fr": "ÉTABLISSEMENT P"
+            },
+            "abbreviation": {
+              "en": "PI",
+              "fr": "EP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0009",
+            "name": "COMMUNITY CORRECTIONAL CENTRE",
+            "description": {
+              "en": "COMMUNITY CORRECTIONAL CENTRE",
+              "fr": "CENTRE CORRECTIONNEL COMMUN."
+            },
+            "shortDescription": {
+              "en": "COMMUNITY CORRE",
+              "fr": "CENTRE CORRECTI"
+            },
+            "abbreviation": {
+              "en": "CCC",
+              "fr": "CCC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0010",
+            "name": "PAROLE OFFICE",
+            "description": {
+              "en": "PAROLE OFFICE",
+              "fr": "BUREAU DE LIBÉRATION CONDIT."
+            },
+            "shortDescription": {
+              "en": "PAROLE OFFICE",
+              "fr": "BUREAU DE LIBÉR"
+            },
+            "abbreviation": {
+              "en": "PO",
+              "fr": "BLC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0011",
+            "name": "COMMUNITY RESIDENTIAL FACILITY",
+            "description": {
+              "en": "COMMUNITY RESIDENTIAL FACILITY",
+              "fr": "CENTRE RÉSIDENTIEL COMMUN."
+            },
+            "shortDescription": {
+              "en": "COMMUNITY RESID",
+              "fr": "CENTRE RÉSIDENT"
+            },
+            "abbreviation": {
+              "en": "CRF",
+              "fr": "CRC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0012",
+            "name": "PAROLE SUB-OFFICE",
+            "description": {
+              "en": "PAROLE SUB-OFFICE",
+              "fr": "BUREAU LOCAL DE LIB. COND."
+            },
+            "shortDescription": {
+              "en": "PAROLE SUB-OFFI",
+              "fr": "BUREAU LOCAL DE"
+            },
+            "abbreviation": {
+              "en": "PSO",
+              "fr": "BLLC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0013",
+            "name": "PROVINCIAL PAROLE OFFICE",
+            "description": {
+              "en": "PROVINCIAL PAROLE OFFICE",
+              "fr": "BUREAU DE LIB. COND. PROV."
+            },
+            "shortDescription": {
+              "en": "PROVINCIAL PARO",
+              "fr": "BUREAU DE LIB."
+            },
+            "abbreviation": {
+              "en": "PPO",
+              "fr": "BLCP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0014",
+            "name": "PROBATION OFFICE",
+            "description": {
+              "en": "PROBATION OFFICE",
+              "fr": "BUREAU DE PROBATION"
+            },
+            "shortDescription": {
+              "en": "PROBATION OFFIC",
+              "fr": "BUREAU DE PROBA"
+            },
+            "abbreviation": {
+              "en": "PROB",
+              "fr": "BP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0015",
+            "name": "INDEPENDENT AGENCY",
+            "description": {
+              "en": "INDEPENDENT AGENCY",
+              "fr": "AGENCE INDÉPENDANTE"
+            },
+            "shortDescription": {
+              "en": "INDEPENDENT AGE",
+              "fr": "AGENCE INDÉPEND"
+            },
+            "abbreviation": {
+              "en": "IA",
+              "fr": "AI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0016",
+            "name": "HOSPITAL & PSYCH. INSTITUTION",
+            "description": {
+              "en": "HOSPITAL & PSYCH. INSTITUTION",
+              "fr": "HOPITAUX & CENTRES PSYCH."
+            },
+            "shortDescription": {
+              "en": "HOSP & PSYCH.",
+              "fr": "HOPIT. & PSY."
+            },
+            "abbreviation": {
+              "en": "PSY",
+              "fr": "PSY"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0017",
+            "name": "PROVINCIAL CORRECTIONS HQ",
+            "description": {
+              "en": "PROVINCIAL CORRECTIONS HQ",
+              "fr": "SERV. CORR. PROVINCIAUX"
+            },
+            "shortDescription": {
+              "en": "PROV.CORRECT.HQ",
+              "fr": "SERV.CORR.PROV."
+            },
+            "abbreviation": {
+              "en": "PCHQ",
+              "fr": "SCP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0018",
+            "name": "PROVINCIAL PAROLE HQ",
+            "description": {
+              "en": "PROVINCIAL PAROLE HQ",
+              "fr": "COMM. PROV. LIB. COND."
+            },
+            "shortDescription": {
+              "en": "PROV. PAROLE HQ",
+              "fr": "COMM.PROV.L.C."
+            },
+            "abbreviation": {
+              "en": "PPHQ",
+              "fr": "CPLC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0019",
+            "name": "AREA - ADMINISTRATIVE",
+            "description": {
+              "en": "AREA - ADMINISTRATIVE",
+              "fr": "SECTORIEL - ADMINISTRATIVE"
+            },
+            "shortDescription": {
+              "en": "AREA-ADMIN",
+              "fr": "SECT-ADMIN"
+            },
+            "abbreviation": {
+              "en": "AADM",
+              "fr": "SADM"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0020",
+            "name": "COMMUNITY EMPLOYMENT CENTRE",
+            "description": {
+              "en": "COMMUNITY EMPLOYMENT CENTRE",
+              "fr": "CENTRE D'EMPLOI COLLECTIVITÉ"
+            },
+            "shortDescription": {
+              "en": "CEC-ADM",
+              "fr": "CEC-ADM"
+            },
+            "abbreviation": {
+              "en": "CEC",
+              "fr": "CEC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0021",
+            "name": "COMMUNITY SERVICES",
+            "description": {
+              "en": "COMMUNITY SERVICES",
+              "fr": "SERVICES COMMUNAUTAIRES"
+            },
+            "shortDescription": {
+              "en": "COMMUNITY SERV.",
+              "fr": "SERVICES COMMUN"
+            },
+            "abbreviation": {
+              "en": "CS",
+              "fr": "SC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0022",
+            "name": "PBC - RHQ",
+            "description": {
+              "en": "PBC - RHQ",
+              "fr": "CLCC - AR"
+            },
+            "shortDescription": {
+              "en": "PBC - RHQ",
+              "fr": "CLCC - AR"
+            },
+            "abbreviation": {
+              "en": "PBCR",
+              "fr": "CLAR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0049",
+            "name": "CLUSTER",
+            "description": {
+              "en": "CLUSTER",
+              "fr": "REGROUPÉ"
+            },
+            "shortDescription": {
+              "en": "CLUSTER",
+              "fr": "REGROUPÉ"
+            },
+            "abbreviation": {
+              "en": "CLUS",
+              "fr": "REGR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0050",
+            "name": "PROVINCIAL MINISTRY",
+            "description": {
+              "en": "PROVINCIAL MINISTRY",
+              "fr": "MINISTÈRE PROVINCIAL"
+            },
+            "shortDescription": {
+              "en": "PROV. MINISTRY",
+              "fr": "MINISTÈRE PROV."
+            },
+            "abbreviation": {
+              "en": "PM",
+              "fr": "MP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0092",
+            "name": "NHQ CSC PARDON",
+            "description": {
+              "en": "NHQ CSC PARDON",
+              "fr": "AC SCC PARDON"
+            },
+            "shortDescription": {
+              "en": "NHQ CSC PARDON",
+              "fr": "AC SCC PARDON"
+            },
+            "abbreviation": {
+              "en": "CSCP",
+              "fr": "PSCC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0093",
+            "name": "NHQ PBC PARDON",
+            "description": {
+              "en": "NHQ PBC PARDON",
+              "fr": "AC CLCC PARDON"
+            },
+            "shortDescription": {
+              "en": "NHQ PBC PARDON",
+              "fr": "AC CLCC PARDON"
+            },
+            "abbreviation": {
+              "en": "PBCP",
+              "fr": "PCLC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0095",
+            "name": "PBC ARCHIVE",
+            "description": {
+              "en": "PBC ARCHIVE",
+              "fr": "CLCC ARCHIVE"
+            },
+            "shortDescription": {
+              "en": "PBC ARCHIVE",
+              "fr": "CLCC ARCHIVE"
+            },
+            "abbreviation": {
+              "en": "PBCA",
+              "fr": "CLCA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0096",
+            "name": "NHQ - ARCHIVE",
+            "description": {
+              "en": "NHQ - ARCHIVE",
+              "fr": "AC - ARCHIVE"
+            },
+            "shortDescription": {
+              "en": "NHQ-ARCHIVE",
+              "fr": "AC - ARCHIVE"
+            },
+            "abbreviation": {
+              "en": "NHQA",
+              "fr": "ACA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0097",
+            "name": "NHQ - ROLLUP",
+            "description": {
+              "en": "NHQ - ROLLUP",
+              "fr": "AC - ROLLUP"
+            },
+            "shortDescription": {
+              "en": "NHQ - ROLLUP",
+              "fr": "AC - ROLLUP"
+            },
+            "abbreviation": {
+              "en": "NHQR",
+              "fr": "ACR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0099",
+            "name": "STAFF COLLEGE",
+            "description": {
+              "en": "STAFF COLLEGE",
+              "fr": "COLLÈGE DU PERSONNEL"
+            },
+            "shortDescription": {
+              "en": "STAFF COLLEGE",
+              "fr": "COLLÈGE DU PERS"
+            },
+            "abbreviation": {
+              "en": "SC",
+              "fr": "CP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0222",
+            "name": "IMMIGRATION",
+            "description": {
+              "en": "IMMIGRATION",
+              "fr": "IMMIGRATION"
+            },
+            "shortDescription": {
+              "en": "IMMIGRATION",
+              "fr": "IMMIGRATION"
+            },
+            "abbreviation": {
+              "en": "IMM",
+              "fr": "IMM"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1101",
+            "name": "SECTION 81 HEALING LODGE",
+            "description": {
+              "en": "SECTION 81 HEALING LODGE",
+              "fr": "PAVILLON DE RESSOURCEMENT A.81"
+            },
+            "shortDescription": {
+              "en": "S 81 HEAL LODGE",
+              "fr": "PAV RESS ART 81"
+            },
+            "abbreviation": {
+              "en": "S81",
+              "fr": "A81"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1102",
+            "name": "HOSTEL",
+            "description": {
+              "en": "HOSTEL",
+              "fr": "FOYER"
+            },
+            "shortDescription": {
+              "en": "HOSTEL",
+              "fr": "FOYER"
+            },
+            "abbreviation": {
+              "en": "HOST",
+              "fr": "FOYE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1103",
+            "name": "PRIVATE HOME PLACEMENT",
+            "description": {
+              "en": "PRIVATE HOME PLACEMENT",
+              "fr": "PLACEMENT MAISON PRIVÉE"
+            },
+            "shortDescription": {
+              "en": "PVT HOME PLCMNT",
+              "fr": "PLA MAISON PRIV"
+            },
+            "abbreviation": {
+              "en": "PHPL",
+              "fr": "PLMP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1104",
+            "name": "COMMUNITY HOUSING CENTRE",
+            "description": {
+              "en": "COMMUNITY HOUSING CENTRE",
+              "fr": "CTRE HÉBERGEMENT COMMUNAUTAIRE"
+            },
+            "shortDescription": {
+              "en": "COMM HOUS CTR",
+              "fr": "CTR HÉB COMM"
+            },
+            "abbreviation": {
+              "en": "CHC",
+              "fr": "CHC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1105",
+            "name": "SATELLITE APARTMENT",
+            "description": {
+              "en": "SATELLITE APARTMENT",
+              "fr": "APPARTEMENT SATELLITE"
+            },
+            "shortDescription": {
+              "en": "SATELLITE APT",
+              "fr": "APP SATELLITE"
+            },
+            "abbreviation": {
+              "en": "SAAP",
+              "fr": "APSA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1106",
+            "name": "SUPERVISED APARTMENT",
+            "description": {
+              "en": "SUPERVISED APARTMENT",
+              "fr": "APPARTEMENT SUPERVISÉ"
+            },
+            "shortDescription": {
+              "en": "SUPERVISED APT",
+              "fr": "APP SUPERVISÉ"
+            },
+            "abbreviation": {
+              "en": "SUAP",
+              "fr": "APSU"
+            },
+            "status": "R"
+          },
+          {
+            "code": "1107",
+            "name": "TREATMENT CENTRE",
+            "description": {
+              "en": "TREATMENT CENTRE",
+              "fr": "CENTRE DE TRAITEMENT"
+            },
+            "shortDescription": {
+              "en": "TREATMENT CTRE",
+              "fr": "CENTRE TRAITEM"
+            },
+            "abbreviation": {
+              "en": "TRCE",
+              "fr": "CETR"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d31bfc4cee1f10d912bb4d3",
+        "code": "2112",
+        "name": "BED OCCUPANCY STATUS TABLE",
+        "description": {
+          "en": "BED OCCUPANCY STATUS TABLE",
+          "fr": "BED OCCUPANCY STATUS TABLE"
+        },
+        "shortDescription": {
+          "en": "BED OCCU STATUS",
+          "fr": "BED OCCU STATUS"
+        },
+        "abbreviation": {
+          "en": "BOST",
+          "fr": "BOST"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "OCCUPIED",
+            "description": {
+              "en": "OCCUPIED",
+              "fr": "OCCUPÉ"
+            },
+            "shortDescription": {
+              "en": "OCCUPIED",
+              "fr": "OCCUPÉ"
+            },
+            "abbreviation": {
+              "en": "OCCU",
+              "fr": "OCCU"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "ASSIGNED",
+            "description": {
+              "en": "ASSIGNED",
+              "fr": "ASSIGNÉ"
+            },
+            "shortDescription": {
+              "en": "ASSIGNED",
+              "fr": "ASSIGNÉ"
+            },
+            "abbreviation": {
+              "en": "ASSI",
+              "fr": "ASSI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "RESERVED",
+            "description": {
+              "en": "RESERVED",
+              "fr": "RESERVÉ"
+            },
+            "shortDescription": {
+              "en": "RESERVED",
+              "fr": "RESERVÉ"
+            },
+            "abbreviation": {
+              "en": "RESE",
+              "fr": "RESE"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d949f578a93ea06f627040f",
+        "code": "3081",
+        "name": "REVIEW STATUSES",
+        "description": {
+          "en": "REVIEW STATUSES",
+          "fr": "REVIEW STATUSES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NOT REVIEWED",
+            "description": {
+              "en": "Not Reviewed",
+              "fr": "Non examiné"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "PARTIALLY REVIEWED",
+            "description": {
+              "en": "Partially Reviewed",
+              "fr": "Partiellement examiné"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "REVIEWED",
+            "description": {
+              "en": "Reviewed",
+              "fr": "Examiné"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462471",
+        "code": "3055",
+        "name": "ALTERNATIVES",
+        "description": {
+          "en": "ALTERNATIVES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "TRANSFER TO HIGHER LEVEL SECURITY",
+            "description": {
+              "en": "Transfer to higher level security",
+              "fr": "Transfert vers un niveau de sécurité supérieur"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "CULTURAL / ELDER ENGAGEMENT",
+            "description": {
+              "en": "Cultural / Elder Engagement",
+              "fr": "Engagement culturel / des aînés"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "MEDIATION WITH STAFF / OTHER INMATE",
+            "description": {
+              "en": "Mediation with staff / other inmate",
+              "fr": "Médiation avec le personnel / autre détenu"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "TRANSFER TO ANOTHER INSTITUTION – SAME LEVEL OF SECURITY",
+            "description": {
+              "en": "Transfer to another institution – same level of security",
+              "fr": "Transfert dans une autre institution - même niveau de sécurité"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "MOVEMENT TO ANOTHER UNIT / RANGE AT SAME INSTITUTION",
+            "description": {
+              "en": "Movement to another unit / range at same institution",
+              "fr": "Déplacement vers une autre unité / gamme dans la même institution"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "HEALTH CARE CELL PLACEMENT",
+            "description": {
+              "en": "Health care cell placement",
+              "fr": "Placement de cellules des soins de santé"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "OBSERVATION",
+            "description": {
+              "en": "Observation",
+              "fr": "Observation"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462472",
+        "code": "3058",
+        "name": "RECOMMENDATION SOURCES",
+        "description": {
+          "en": "RECOMMENDATION SOURCES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "CORRECTIONAL OFFICER",
+            "description": {
+              "en": "Correctional Officer",
+              "fr": "Agent correctionnel"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "HEALTH STAFF",
+            "description": {
+              "en": "Health Staff",
+              "fr": "Personnel de santé"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "EXTERNAL PSYCHOLOGIST",
+            "description": {
+              "en": "External Psychologist",
+              "fr": "Psychologue externe"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "CASE WORKER",
+            "description": {
+              "en": "Case Worker",
+              "fr": "Intervenant"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "PAROLE OFFICER",
+            "description": {
+              "en": "Parole Officer",
+              "fr": "Agent de libération conditionnelle"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "EXTERNAL VISITOR",
+            "description": {
+              "en": "External Visitor",
+              "fr": "Visiteur Extérieur"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462476",
+        "code": "3062",
+        "name": "DECISION BODY",
+        "description": {
+          "en": "DECISION BODY",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INSTITUTIONAL HEAD",
+            "description": {
+              "en": "Institutional Head",
+              "fr": "Directeur de l’établissement"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "CSC EXECUTIVE REVIEW COMMITTEE",
+            "description": {
+              "en": "CSC Executive Review Committee",
+              "fr": "Comité d’examen de la haute direction du SCC"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "CSC COMMISSIONER",
+            "description": {
+              "en": "CSC Commissioner",
+              "fr": "Commissaire, SCC"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462469",
+        "code": "3012",
+        "name": "STATUS REASON",
+        "description": {
+          "en": "STATUS REASON",
+          "fr": "STATUS REASON-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "FLOODING",
+            "description": {
+              "en": "FLOODING",
+              "fr": "FLOODING"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446246f",
+        "code": "3053",
+        "name": "INTERACTION STATUS",
+        "description": {
+          "en": "INTERACTION STATUS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "COMPLETED INTERACTIONS",
+            "description": {
+              "en": "Completed Interactions",
+              "fr": "Interactions terminées"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "PARTIAL INTERACTIONS",
+            "description": {
+              "en": "Partial Interactions",
+              "fr": "Interactions partielles"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "NO INTERACTIONS",
+            "description": {
+              "en": "No Interactions",
+              "fr": "Pas d'interactions"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "INTERACTIONS",
+            "description": {
+              "en": "Interactions",
+              "fr": "Les Interactions"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462470",
+        "code": "3054",
+        "name": "JUSTIFICATIONS",
+        "description": {
+          "en": "JUSTIFICATIONS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "JEOPARDY TO INSTITUTIONAL SECURITY",
+            "description": {
+              "en": "Jeopardy to institutional security",
+              "fr": "Menace à la sécurité de l’établissement"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "RISK FROM GENERAL POPULATION",
+            "description": {
+              "en": "Risk from general population",
+              "fr": "Risque de la population générale"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "INTERFERENCE TO A CRIMINAL INVESTIGATION",
+            "description": {
+              "en": "Interference to a criminal investigation",
+              "fr": "Entrave à une enquête criminelle"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d5556e3b8a226d5fd0b4708",
+        "code": "3016",
+        "name": "REASONS FOR REFUSAL",
+        "description": {
+          "en": "REASONS FOR REFUSAL",
+          "fr": "RAISONS D'AVOIR REFUSÉ LE DELINQUANT(E)S"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "ILLITERACY",
+            "description": {
+              "en": "ILLITERACY",
+              "fr": "ANALPHABÉTISME"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "MODERATE TO PROFOUND INTELLECTUAL DISABILITY",
+            "description": {
+              "en": "MODERATE TO PROFOUND INTELLECTUAL DISABILITY",
+              "fr": "DÉFICIENCE INTELLECTUELLE MODÉRÉE À GRAVE"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "REDUCED MOBILITY",
+            "description": {
+              "en": "REDUCED MOBILITY",
+              "fr": "MOBILITÉ RÉDUITE"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "INDIVIDUALS PRESCRIBED ANTI-PSYCHOTICS, NARCOTICS, AND BENZODIAZEPINES",
+            "description": {
+              "en": "INDIVIDUALS PRESCRIBED ANTI-PSYCHOTICS, NARCOTICS, AND BENZODIAZEPINES",
+              "fr": "PERSONNES DEVANT PRENDRE DES MÉDICAMENTS ANTIPSYCHOTIQUES, DES NARCOTIQUES ET DE LA BENZODIAZÉPINE QUI LEUR SONT PRESCRITS"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "HISTORY OF SERIOUS PSYCHIATRIC DISORDERS",
+            "description": {
+              "en": "HISTORY OF SERIOUS PSYCHIATRIC DISORDERS",
+              "fr": "HISTORIQUE DE GRAVES TROUBLES PSYCHIATRIQUES"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "PARTICIPANT IN A METHADONE PROGRAM",
+            "description": {
+              "en": "PARTICIPANT IN A METHADONE PROGRAM",
+              "fr": "PERSONNES PARTICIPANT À UN PROGRAMME DE TRAITEMENT À LA MÉTHADONE"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "NARCOTIC BASED MEDICATION",
+            "description": {
+              "en": "NARCOTIC BASED MEDICATION",
+              "fr": "MÉDICAMENTS NARCOTIQUES"
+            }
+          },
+          {
+            "code": "0008",
+            "name": "MEDICAL MARIJUANA PRESCRIPTION",
+            "description": {
+              "en": "MEDICAL MARIJUANA PRESCRIPTION",
+              "fr": "PRESCRIPTIONS POUR LA MARIJUANAS"
+            }
+          },
+          {
+            "code": "0009",
+            "name": "CURRENT SELF-HARMING BEHAVIOUR",
+            "description": {
+              "en": "CURRENT SELF-HARMING BEHAVIOUR",
+              "fr": "COMPORTEMENT AUTODESTRUCTEUR ACTUEL"
+            }
+          },
+          {
+            "code": "0010",
+            "name": "ACTIVELY SUICIDAL",
+            "description": {
+              "en": "ACTIVELY SUICIDAL",
+              "fr": "FORTEMENT SUICIDAIRE"
+            }
+          },
+          {
+            "code": "0011",
+            "name": "PARAPHILIA",
+            "description": {
+              "en": "PARAPHILIA",
+              "fr": "PARAPHILIE"
+            }
+          },
+          {
+            "code": "0012",
+            "name": "PYROMANIA",
+            "description": {
+              "en": "PYROMANIA",
+              "fr": "PYROMANIE"
+            }
+          },
+          {
+            "code": "0013",
+            "name": "HIGH RISK OF SELF-HARM OR SUICIDE",
+            "description": {
+              "en": "HIGH RISK OF SELF-HARM OR SUICIDE",
+              "fr": "RISQUE ÉLEVÉ D’AUTOMUTILATION OU DE SUICIDE"
+            }
+          },
+          {
+            "code": "0014",
+            "name": "GAMBLING ADDICTION",
+            "description": {
+              "en": "GAMBLING ADDICTION",
+              "fr": "JEU PATHOLOGIQUE"
+            }
+          },
+          {
+            "code": "0015",
+            "name": "CRIMINAL AFFILIATION",
+            "description": {
+              "en": "CRIMINAL AFFILIATION",
+              "fr": "AFFILIATION CRIMINELLE"
+            }
+          },
+          {
+            "code": "0016",
+            "name": "SEX OFFENDERS",
+            "description": {
+              "en": "SEX OFFENDERS",
+              "fr": "DÉLINQUANTS SEXUELS"
+            }
+          },
+          {
+            "code": "0017",
+            "name": "PEDOPHILIA WITH CHILD UNDER 12 (EXCEPT INCESTUOUS FATHERS)",
+            "description": {
+              "en": "PEDOPHILIA WITH CHILD UNDER 12 (EXCEPT INCESTUOUS FATHERS)",
+              "fr": "PÉDOPHILIE AVEC UN ENFANT DE MOINS DE 12 ANS (SAUF LES PÈRES INCESTUEUX)"
+            }
+          },
+          {
+            "code": "0018",
+            "name": "SEXUAL PREDATORS AND RECIDIVISTS",
+            "description": {
+              "en": "SEXUAL PREDATORS AND RECIDIVISTS",
+              "fr": "PRÉDATEURS SEXUELS ET RÉCIDIVISTES"
+            }
+          },
+          {
+            "code": "0019",
+            "name": "SEXUAL ASSAULT ON MINOR(S)",
+            "description": {
+              "en": "SEXUAL ASSAULT ON MINOR(S)",
+              "fr": "AGRESSION SEXUELLE D’UNE OU PLUSIEURS PERSONNES MINEURES"
+            }
+          },
+          {
+            "code": "0020",
+            "name": "ARSONIST",
+            "description": {
+              "en": "ARSONIST",
+              "fr": "INCENDIE CRIMINEL"
+            }
+          },
+          {
+            "code": "0021",
+            "name": "OFFENDERS WITH A S.161 PROHIBITION",
+            "description": {
+              "en": "OFFENDERS WITH A S.161 PROHIBITION",
+              "fr": "DÉLINQUANTS ASSUJETTIS AUX INTERDICTIONS PRESCRITES À L’ARTICLE 161"
+            }
+          },
+          {
+            "code": "0022",
+            "name": "KNOWN AND ACTIVE MEMBERS OF ORGANIZED CRIME",
+            "description": {
+              "en": "KNOWN AND ACTIVE MEMBERS OF ORGANIZED CRIME",
+              "fr": "MEMBRES ACTIFS ET CONNUS DU CRIME ORGANISÉ"
+            }
+          },
+          {
+            "code": "0023",
+            "name": "HIGH RISK OF RECIDIVISM",
+            "description": {
+              "en": "HIGH RISK OF RECIDIVISM",
+              "fr": "RISQUE ÉLEVÉ DE RÉCIDIVISME"
+            }
+          },
+          {
+            "code": "0024",
+            "name": "LONG TERM SUPERVISION ORDER",
+            "description": {
+              "en": "LONG TERM SUPERVISION ORDER",
+              "fr": "ORDONNANCE DE SURVEILLANCE DE LONGUE DURÉE"
+            }
+          },
+          {
+            "code": "0025",
+            "name": "LONG TERM SUPERVISION ORDER",
+            "description": {
+              "en": "LONG TERM SUPERVISION ORDER",
+              "fr": "ORDONNANCE DE SURVEILLANCE DE LONGUE DURÉE"
+            }
+          },
+          {
+            "code": "0026",
+            "name": "INDIVIDUALS WHO REQUIRE DAILY TRIPS FOR CARE",
+            "description": {
+              "en": "INDIVIDUALS WHO REQUIRE DAILY TRIPS FOR CARE",
+              "fr": "PERSONNES DEVANT SE DÉPLACER QUOTIDIENNEMENT POUR OBTENIR DES SOINS"
+            }
+          },
+          {
+            "code": "0027",
+            "name": "REFUSING TREATMENT",
+            "description": {
+              "en": "REFUSING TREATMENT",
+              "fr": "PERSONNES REFUSANT UN TRAITEMENT"
+            }
+          },
+          {
+            "code": "0028",
+            "name": "RECENT VIOLENT INCIDENT",
+            "description": {
+              "en": "RECENT VIOLENT INCIDENT",
+              "fr": "INCIDENT VIOLENT RÉCENT"
+            }
+          },
+          {
+            "code": "0029",
+            "name": "INDIVIDUALS WHO CANNOT SPEAK ENGLISH OR FRENCH",
+            "description": {
+              "en": "INDIVIDUALS WHO CANNOT SPEAK ENGLISH OR FRENCH",
+              "fr": "PERSONNES QUI NE PARLENT NI LE FRANÇAIS NI L’ANGLAIS"
+            }
+          },
+          {
+            "code": "0030",
+            "name": "ENGLISH-ONLY SPEAKING OFFENDER",
+            "description": {
+              "en": "ENGLISH-ONLY SPEAKING OFFENDERS",
+              "fr": "DÉLINQUANTS QUI NE PARLENT QUE L’ANGLAIS"
+            }
+          },
+          {
+            "code": "0031",
+            "name": "KNOWN INFORMER",
+            "description": {
+              "en": "KNOWN INFORMER",
+              "fr": "INDICATEUR CONNU"
+            }
+          },
+          {
+            "code": "0032",
+            "name": "OTHER (ADDITIONAL DETAILS REQUIRED)",
+            "description": {
+              "en": "OTHER (ADDITIONAL DETAILS REQUIRED)",
+              "fr": "AUTRES (DETAILS ADDITIONELS REQUISE) "
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d652c9fb8a226d5fdcc1c26",
+        "code": "3075",
+        "name": "INDIGENOUSACTIVITY",
+        "description": {
+          "en": "INDIGENOUS CULTURAL ACTIVITY",
+          "fr": "fr_INDIGENOUS CULTURAL ACTIVITY"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INDIGENOUS CEREMONIES",
+            "description": {
+              "en": "Indigenous Ceremonies",
+              "fr": "Cérémonies autochtones"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "SWEAT LODGES",
+            "description": {
+              "en": "Sweat Lodges",
+              "fr": "Hutte à sudation"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "description": {
+              "en": "Social / Crafts",
+              "fr": "Social / Artisanat"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "description": {
+              "en": "Spiritual",
+              "fr": "Spirituelle"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "description": {
+              "en": "Other cultural activities",
+              "fr": "Autres activités culturelles"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d83d0d18a93ea06f60bb653",
+        "code": "4000",
+        "name": "QUESTION TYPES",
+        "description": {
+          "en": "QUESTION TYPES",
+          "fr": "QUESTION TYPES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "DROPDOWN",
+            "description": {
+              "en": "DROPDOWN",
+              "fr": "DROPDOWN-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "TEXT",
+            "description": {
+              "en": "TEXT",
+              "fr": "TEXT-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "TEXTAREA",
+            "description": {
+              "en": "TEXTAREA",
+              "fr": "TEXTAREA-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "DATE",
+            "description": {
+              "en": "DATE",
+              "fr": "DATE-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "TIME",
+            "description": {
+              "en": "TIME",
+              "fr": "TIME-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "DATETIME",
+            "description": {
+              "en": "DATETIME",
+              "fr": "DATETIME-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "YES_NO",
+            "description": {
+              "en": "YES_NO",
+              "fr": "YES_NO-FR"
+            },
+            "status": "R",
+            "items": [
+              {
+                "code": "0001",
+                "name": "YES",
+                "description": {
+                  "en": "Yes",
+                  "fr": "Oui"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0002",
+                "name": "NO",
+                "description": {
+                  "en": "No",
+                  "fr": "Non"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0008",
+            "name": "YES_NO_NA",
+            "description": {
+              "en": "YES_NO_NA",
+              "fr": "YES_NO_NA-FR"
+            },
+            "status": "R",
+            "items": [
+              {
+                "code": "0001",
+                "name": "YES",
+                "description": {
+                  "en": "Yes",
+                  "fr": "Oui"
+                }
+              },
+              {
+                "code": "0002",
+                "name": "NO",
+                "description": {
+                  "en": "No",
+                  "fr": "Non"
+                }
+              },
+              {
+                "code": "0003",
+                "name": "N/A",
+                "description": {
+                  "en": "N/A",
+                  "fr": "N/A"
+                }
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "OAM",
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d938d2c8a93ea06f6ed45cd",
+        "code": "3080",
+        "name": "SIU EMAIL GROUPS",
+        "description": {
+          "en": "SIU EMAIL GROUPS",
+          "fr": "SIU EMAIL GROUPS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "SITE MAILBOX",
+            "description": {
+              "en": "Site Mailbox",
+              "fr": "Boites aux lettres du site"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "SIU MAILBOX",
+            "description": {
+              "en": "SIU Mailbox",
+              "fr": "Boites aux lettres UIS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "HEALTH DESK MAILBOX",
+            "description": {
+              "en": "Health Desk Mailbox",
+              "fr": "Boites aux lettres du bureau de santé"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "NHQ HEALTH COMMITTEE",
+            "description": {
+              "en": "NHQ Health Committee",
+              "fr": "Comité de santé NHQ"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "REGIONAL MAILBOX",
+            "description": {
+              "en": "Regional Mailbox",
+              "fr": "Boites aux lettres régionale"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "NATIONAL MAILBOX",
+            "description": {
+              "en": "National Mailbox",
+              "fr": "Boites aux lettres national"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "IEDM MAILBOX",
+            "description": {
+              "en": "IEDM Mailbox",
+              "fr": "Boites aux lettres DEI"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446247c",
+        "code": "3068",
+        "name": "REVIEW",
+        "description": {
+          "en": "REVIEW",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NOT REVIEWED",
+            "description": {
+              "en": "Not Reviewed",
+              "fr": "Non examiné"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "PARTIALLY REVIEWED",
+            "description": {
+              "en": "Partially Reviewed",
+              "fr": "Partiellement examiné"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "REVIEWED",
+            "description": {
+              "en": "Reviewed",
+              "fr": "Examiné"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d652c9fb8a226d5fdcc1c4c",
+        "code": "3076",
+        "name": "SKILLSDEVELOPMENT",
+        "description": {
+          "en": "SKILLS DEVELOPMENT",
+          "fr": "fr_SKILLS DEVELOPMENT"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "LIFE SKILLS",
+            "description": {
+              "en": "Life skills",
+              "fr": "Compétence de vie"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "ANGER MANAGEMENT",
+            "description": {
+              "en": "Anger Management",
+              "fr": "Gestion de la colère"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "PROBLEM SOLVING",
+            "description": {
+              "en": "Problem Solving",
+              "fr": "Résolution de problème"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "SKILLS WORK",
+            "description": {
+              "en": "Skills work",
+              "fr": "Compétences travail"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "DBT SKILLS",
+            "description": {
+              "en": "DBT Skills",
+              "fr": "Compétences DBT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "GOAL SETTING",
+            "description": {
+              "en": "Goal setting",
+              "fr": "Établissement d'objectifs"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "THE NECESSARY TOOLS",
+            "description": {
+              "en": "The necessary tools",
+              "fr": "Les outils nécessaires"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462477",
+        "code": "3063",
+        "name": "BARRIERS",
+        "description": {
+          "en": "BARRIERS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NONE",
+            "description": {
+              "en": "None",
+              "fr": "Aucun"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "BARS",
+            "description": {
+              "en": "Bars",
+              "fr": "Barres"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "SECURITY GLASS",
+            "description": {
+              "en": "Security Glass",
+              "fr": "Vitre de sécurité"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "DOOR HATCHES",
+            "description": {
+              "en": "Door Hatches",
+              "fr": "Trappe de porte"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "SCREENS",
+            "description": {
+              "en": "Screens",
+              "fr": "Écrans"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "OTHER",
+            "description": {
+              "en": "Other",
+              "fr": "Autres"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d54400c9ae592c3f9c06005",
+        "code": "3057",
+        "name": "DAILYOUTCOMES",
+        "description": {
+          "en": "DAILY OUTCOMES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "THE INMATE PARTICIPATED",
+            "description": {
+              "en": "The inmate participated",
+              "fr": "Le détenu a participé"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "THE INMATE REFUSED THE OPPORTUNITY",
+            "description": {
+              "en": "The inmate refused the opportunity",
+              "fr": "Le détenu a refusé l’occasion"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "THE INMATE DID NOT COMPLY WITH REASONABLE INSTRUCTIONS",
+            "description": {
+              "en": "The inmate did not comply with reasonable instructions",
+              "fr": "Le détenu n’a pas respecté des directives raisonnables."
+            }
+          },
+          {
+            "code": "0004",
+            "name": "EXIGENT CIRCUMSTANCES (DISASTERS, FIRES, RIOTS, WORK REFUSALS)",
+            "description": {
+              "en": "Exigent circumstances (disasters, fires, riots, work refusals)",
+              "fr": "Situations d’urgence (désastre, feu, émeute, refus de travailler)"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "CIRCUMSTANCES DID NOT PERMIT (PRE-TRANSFER ONLY)",
+            "description": {
+              "en": "Circumstances did not permit (pre-transfer only)",
+              "fr": "Les circonstances ne l’ont pas permis (avant un transfèrement seulement)"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfa7cee1f10d912b9dc4",
+        "code": "0057",
+        "name": "SEX TABLE",
+        "description": {
+          "en": "SEX TABLE",
+          "fr": "SEXE"
+        },
+        "shortDescription": {
+          "en": "SEX TABLE",
+          "fr": "SEXE"
+        },
+        "abbreviation": {
+          "en": "ST",
+          "fr": "ST"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MALE",
+            "description": {
+              "en": "MALE",
+              "fr": "HOMME"
+            },
+            "shortDescription": {
+              "en": "MALE",
+              "fr": "HOMME"
+            },
+            "abbreviation": {
+              "en": "M",
+              "fr": "H"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "FEMALE",
+            "description": {
+              "en": "FEMALE",
+              "fr": "FEMME"
+            },
+            "shortDescription": {
+              "en": "FEMALE",
+              "fr": "FEMME"
+            },
+            "abbreviation": {
+              "en": "F",
+              "fr": "F"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "ANOTHER SEX",
+            "description": {
+              "en": "ANOTHER SEX",
+              "fr": "UN AUTRE SEX"
+            },
+            "shortDescription": {
+              "en": "ANOTHER SEX",
+              "fr": "UN AUTRE SEX"
+            },
+            "abbreviation": {
+              "en": "X",
+              "fr": "X"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "UNDISCLOSED",
+            "description": {
+              "en": "UNDISCLOSED",
+              "fr": "NON DIVULGUÉ"
+            },
+            "shortDescription": {
+              "en": "UNDISCLOSED",
+              "fr": "NON DIVULGUÉ"
+            },
+            "abbreviation": {
+              "en": "U",
+              "fr": "N"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d31bfa5cee1f10d912b9c97",
+        "code": "0036",
+        "name": "SUB UNIT STATUS TABLE",
+        "description": {
+          "en": "SUB UNIT STATUS TABLE",
+          "fr": "SUB UNIT STATUS TABLE"
+        },
+        "shortDescription": {
+          "en": "SUB UNIT STATUS",
+          "fr": "SUB UNIT STATUS"
+        },
+        "abbreviation": {
+          "en": "SUST",
+          "fr": "SUST"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "OCCUPIED",
+            "description": {
+              "en": "OCCUPIED",
+              "fr": "OCCUPÉ"
+            },
+            "shortDescription": {
+              "en": "OCCUPIED",
+              "fr": "OCCUPÉ"
+            },
+            "abbreviation": {
+              "en": "OCCU",
+              "fr": "OCCU"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "ASSIGNED",
+            "description": {
+              "en": "ASSIGNED",
+              "fr": "ASSIGNÉ"
+            },
+            "shortDescription": {
+              "en": "ASSIGNED",
+              "fr": "ASSIGNÉ"
+            },
+            "abbreviation": {
+              "en": "ASSI",
+              "fr": "ASSI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "RESERVED",
+            "description": {
+              "en": "RESERVED",
+              "fr": "RESERVÉ"
+            },
+            "shortDescription": {
+              "en": "RESERVED",
+              "fr": "RESERVÉ"
+            },
+            "abbreviation": {
+              "en": "RESE",
+              "fr": "RESE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "VACANT",
+            "description": {
+              "en": "VACANT",
+              "fr": "VACANT"
+            },
+            "shortDescription": {
+              "en": "VACANT",
+              "fr": "VACANT"
+            },
+            "abbreviation": {
+              "en": "VACA",
+              "fr": "VACA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "UNAVAILABLE",
+            "description": {
+              "en": "UNAVAILABLE",
+              "fr": "NON DISPONIBLE"
+            },
+            "shortDescription": {
+              "en": "UNAVAILABLE",
+              "fr": "NON DISPONIBLE"
+            },
+            "abbreviation": {
+              "en": "UNAV",
+              "fr": "NOND"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d31bfabcee1f10d912ba011",
+        "code": "0094",
+        "name": "ACTIVE / INACTIVE TABLE",
+        "description": {
+          "en": "ACTIVE / INACTIVE TABLE",
+          "fr": "ACTIF / INACTIF"
+        },
+        "shortDescription": {
+          "en": "ACTIVE / INACTI",
+          "fr": "ACTIF / INACTIF"
+        },
+        "abbreviation": {
+          "en": "AIT",
+          "fr": "AIT"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "ACTIVE",
+            "description": {
+              "en": "ACTIVE",
+              "fr": "ACTIF"
+            },
+            "shortDescription": {
+              "en": "ACTIVE",
+              "fr": "ACTIF"
+            },
+            "abbreviation": {
+              "en": "A",
+              "fr": "A"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "INACTIVE",
+            "description": {
+              "en": "INACTIVE",
+              "fr": "INACTIF"
+            },
+            "shortDescription": {
+              "en": "INACTIVE",
+              "fr": "INACTIF"
+            },
+            "abbreviation": {
+              "en": "I",
+              "fr": "I"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "PENDING ACTIVATION",
+            "description": {
+              "en": "PENDING CODE ASSIGNMENT",
+              "fr": "PENDING CODE ASSIGNMENT_FR"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462465",
+        "code": "3004",
+        "name": "DISTRICT",
+        "description": {
+          "en": "DISTRICT",
+          "fr": "DISTRICT-FR"
+        },
+        "items": [
+          {
+            "code": "28800",
+            "name": "ATLANTIC DISTRICT OFFICE",
+            "description": {
+              "en": "ATLANTIC DISTRICT OFFICE",
+              "fr": "BUREAU DE DISTRICT ATLANTIQUE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "28400",
+            "name": "NOVA SCOTIA RURAL DISTRICT",
+            "description": {
+              "en": "NOVA SCOTIA RURAL DISTRICT",
+              "fr": "NOVA SCOTIA RURAL DISTRICT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "37000",
+            "name": "MONTREAL-METRO DISTRICT OFFICE",
+            "description": {
+              "en": "MONTREAL-METRO DISTRICT OFFICE",
+              "fr": "MONTRÉAL-MÉTRO - BUREAU DISTR."
+            },
+            "status": "R"
+          },
+          {
+            "code": "39000",
+            "name": "EAST-WEST QUEBEC DISTRICT OFF.",
+            "description": {
+              "en": "EAST-WEST QUEBEC DISTRICT OFF.",
+              "fr": "EST-OUEST (QUE) BUREAU DISTR."
+            },
+            "status": "R"
+          },
+          {
+            "code": "49000",
+            "name": "WESTERN ONT. DISTRICT OFFICE",
+            "description": {
+              "en": "WESTERN ONT. DISTRICT OFFICE",
+              "fr": "ONT-OUEST - BUREAU DISTRICT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "48500",
+            "name": "HAMILTON DISTRICT OFFICE",
+            "description": {
+              "en": "HAMILTON DISTRICT OFFICE",
+              "fr": "HAMILTON - BUREAU SECTORIEL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "47000",
+            "name": "GREATER ONT & NUNAVUT DISTRICT",
+            "description": {
+              "en": "GREATER ONT & NUNAVUT DISTRICT",
+              "fr": "DIST. PRINC ONTARIO & NUNAVUT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "48000",
+            "name": "CENTRAL ONT. DISTRICT OFFICE",
+            "description": {
+              "en": "CENTRAL ONT. DISTRICT OFFICE",
+              "fr": "CENTRAL  BUREAU DE DISTRICT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "47500",
+            "name": "OTTAWA DISTRICT OFFICE",
+            "description": {
+              "en": "OTTAWA DISTRICT OFFICE",
+              "fr": "OTTAWA - BUREAU SECTORIEL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "53930",
+            "name": "ADJ HEADQUARTERS",
+            "description": {
+              "en": "ADJ HEADQUARTERS",
+              "fr": "EDMONTON - BUREAU SECTORIEL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "57190",
+            "name": "ALBERTA/NWT DISTRICT OFFICE",
+            "description": {
+              "en": "ALBERTA/NWT DISTRICT OFFICE",
+              "fr": "ALBERTA/NWT BUREAU DISTRICT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "55190",
+            "name": "MAN/SASK/NW ONT DISTRICT OFF",
+            "description": {
+              "en": "MAN/SASK/NW ONT DISTRICT OFF",
+              "fr": "MAN/SASK/NW ONT BUREAU DIST"
+            },
+            "status": "R"
+          },
+          {
+            "code": "88090",
+            "name": "PACIFIC DISTRICT OFFICE",
+            "description": {
+              "en": "PACIFIC DISTRICT OFFICE",
+              "fr": "PACIFIC DISTRICT OFFICE"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462474",
+        "code": "3060",
+        "name": "RECOMMENDATIONS TO ALTER",
+        "description": {
+          "en": "RECOMMENDATIONS TO ALTER",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NO RECOMMENDATION",
+            "description": {
+              "en": "No recommendation",
+              "fr": "Aucune recommandation"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "RECOMMENDATION TO ALTER",
+            "description": {
+              "en": "Recommendation to alter",
+              "fr": "Recommandation de modifier"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "RECOMMENDATION TO REMOVE FROM SIU",
+            "description": {
+              "en": "Recommendation to remove from SIU",
+              "fr": "Recommandation de retirer de l’UIS"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462475",
+        "code": "3061",
+        "name": "RECOMMENDATIONS/DETERMINATIONS",
+        "description": {
+          "en": "RECOMMENDATION/DETERMINATIONS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "RECOMMENDATION REJECTED",
+            "description": {
+              "en": "Recommendation rejected",
+              "fr": "Recommandation rejetée"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "RECOMMENDATION ACCEPTED",
+            "description": {
+              "en": "Recommendation accepted",
+              "fr": "Recommandation acceptée"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d652c9db8a226d5fdcc1be1",
+        "code": "3073",
+        "name": "COACHING",
+        "description": {
+          "en": "COACING",
+          "fr": "fr_COACHING"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PSYCHO-EDUCATIONAL GROUP",
+            "description": {
+              "en": "Psycho-educational group",
+              "fr": "Groupe psycho-éducatif"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "DBT LESSON",
+            "description": {
+              "en": "DBT Lesson",
+              "fr": "Leçon DBT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "OUTREACH",
+            "description": {
+              "en": "Outreach",
+              "fr": "Sensibilisation"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "MINDFULNESS ACTIVITY",
+            "description": {
+              "en": "Mindfulness Activity",
+              "fr": "Activité de pleine conscience"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "GENERAL SUPPORT",
+            "description": {
+              "en": "General Support",
+              "fr": "Support général"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d949f5b8a93ea06f62704cf",
+        "code": "3086",
+        "name": "FOLLOWUP QUESTIONS",
+        "description": {
+          "en": "FOLLOWUP QUESTIONS",
+          "fr": "FOLLOWUP QUESTIONS-FR"
+        },
+        "items": [
+          {
+            "name": "DRUGS CONFISCATED?",
+            "description": {
+              "en": "Drugs Confiscated?",
+              "fr": "Drogues confisquées?"
+            },
+            "status": "R"
+          },
+          {
+            "name": "STG RELATED?",
+            "description": {
+              "en": "STG Related?",
+              "fr": "En relation au GMS ?"
+            },
+            "status": "R"
+          },
+          {
+            "name": "INJURIES RESULTED?",
+            "description": {
+              "en": "Injuries Resulted?",
+              "fr": "Blessures causées ?"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfc5cee1f10d912bb69b",
+        "code": "2153",
+        "name": "BED STATUS TABLE",
+        "description": {
+          "en": "BED STATUS TABLE",
+          "fr": "BED STATUS TABLE"
+        },
+        "shortDescription": {
+          "en": "BED STATUS",
+          "fr": "BED STATUS"
+        },
+        "abbreviation": {
+          "en": "BST",
+          "fr": "BST"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "OPERATIONAL",
+            "description": {
+              "en": "OPERATIONAL",
+              "fr": "OPÉRATIONNEL"
+            },
+            "shortDescription": {
+              "en": "OPERATIONAL",
+              "fr": "OPÉRATIONNEL"
+            },
+            "abbreviation": {
+              "en": "OPER",
+              "fr": "OPER"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "UNAVAILABLE",
+            "description": {
+              "en": "UNAVAILABLE",
+              "fr": "NON DISPONIBLE"
+            },
+            "shortDescription": {
+              "en": "UNAVAILABLE",
+              "fr": "NON DISPONIBLE"
+            },
+            "abbreviation": {
+              "en": "UNAV",
+              "fr": "NOND"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446247b",
+        "code": "3067",
+        "name": "ADMIN ROLES",
+        "description": {
+          "en": "ADMIN ROLES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "REGULAR",
+            "description": {
+              "en": "Regular",
+              "fr": "Régulier"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "READ/WRITE",
+            "description": {
+              "en": "Read/Write",
+              "fr": "Lecture et écriture"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "READ ONLY",
+            "description": {
+              "en": "Read Only",
+              "fr": "Lecture seulement"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446247e",
+        "code": "3070",
+        "name": "SIU ATTRIBUTE TYPES",
+        "description": {
+          "en": "SIU ATTRIBUTE TYPES",
+          "fr": "SIU ATTRIBUTE TYPES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "DEFAULTOUTSIDEOFF",
+            "description": {
+              "en": "Default Outside Off",
+              "fr": "Default Outside Off"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "DEFAULTINTERACTIONOFF",
+            "description": {
+              "en": "Default Interaction Off",
+              "fr": "Default Interaction Off"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "DEFAULTOUTSIDEON",
+            "description": {
+              "en": "Default Outside Off",
+              "fr": "Default Outside Off"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "DEFAULTINTERACTIONON",
+            "description": {
+              "en": "Default Interaction On",
+              "fr": "Default Interaction On"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "GROUPTOGGLE",
+            "description": {
+              "en": "groupToggle",
+              "fr": "groupToggle"
+            }
+          },
+          {
+            "code": "0006",
+            "name": "INDOORTOGGLE",
+            "description": {
+              "en": "indoorToggle",
+              "fr": "indoorToggle"
+            }
+          },
+          {
+            "code": "0007",
+            "name": "OUTSIDEDEPENDANT",
+            "description": {
+              "en": "outsideDependant",
+              "fr": "outsideDependant"
+            }
+          },
+          {
+            "code": "0008",
+            "name": "LABELCHANGE",
+            "description": {
+              "en": "labelChange",
+              "fr": "labelChange"
+            }
+          },
+          {
+            "code": "0009",
+            "name": "OPTOUTSIDEON",
+            "description": {
+              "en": "optInteractionOn",
+              "fr": "optInteractionOn"
+            }
+          },
+          {
+            "code": "0010",
+            "name": "OPTINTERACTIONON",
+            "description": {
+              "en": "optInteractionOn",
+              "fr": "optInteractionOn"
+            }
+          },
+          {
+            "code": "0011",
+            "name": "OMSPROGRAMS",
+            "description": {
+              "en": "OMS Programs",
+              "fr": "fr_OMS Programs"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d949f588a93ea06f627043d",
+        "code": "3082",
+        "name": "INTERACTION TYPES",
+        "description": {
+          "en": "INTERACTION TYPES",
+          "fr": "INTERACTION TYPES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MEANININGFUL INTERACTION",
+            "description": {
+              "en": "Meaniningful Interaction",
+              "fr": "Interaction véritable"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "TIME OUTSIDE CELL",
+            "description": {
+              "en": "Time Outside Cell",
+              "fr": "Temps hors cellule"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "BOTH",
+            "description": {
+              "en": "Both",
+              "fr": "Les deux"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "NEITHER",
+            "description": {
+              "en": "Neither",
+              "fr": "Ni l’un ni l’autre"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d949f5a8a93ea06f62704a6",
+        "code": "3085",
+        "name": "CHANGE TYPES",
+        "description": {
+          "en": "CHANGE TYPES",
+          "fr": "CHANGE TYPES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "REMOVAL",
+            "description": {
+              "en": "Removal",
+              "fr": "fr_Removal"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "MODIFICATION",
+            "description": {
+              "en": "Modification",
+              "fr": "fr_Modificaiton"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfa1cee1f10d912b9acd",
+        "code": "0002",
+        "name": "ADDRESS TYPE",
+        "description": {
+          "en": "ADDRESS TYPE",
+          "fr": "TYPES D'ADRESSES"
+        },
+        "shortDescription": {
+          "en": "ADDRESS TYPE",
+          "fr": "TYPES D'ADRESSE"
+        },
+        "abbreviation": {
+          "en": "ADDR",
+          "fr": "TADR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "RESIDENTIAL",
+            "description": {
+              "en": "RESIDENTIAL",
+              "fr": "RÉSIDENCE"
+            },
+            "shortDescription": {
+              "en": "RESIDENTIAL",
+              "fr": "RÉSIDENCE"
+            },
+            "abbreviation": {
+              "en": "RES",
+              "fr": "RES"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "BUSINESS",
+            "description": {
+              "en": "BUSINESS",
+              "fr": "BUREAU"
+            },
+            "shortDescription": {
+              "en": "BUSINESS",
+              "fr": "BUREAU"
+            },
+            "abbreviation": {
+              "en": "BUS",
+              "fr": "BUR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "COMMUNITY RESIDENTIAL FACILITY",
+            "description": {
+              "en": "COMMUNITY RESIDENTIAL FACILITY",
+              "fr": "CENTRE RÉSID. COMMUNAUTAIRE"
+            },
+            "shortDescription": {
+              "en": "CRF",
+              "fr": "CRC"
+            },
+            "abbreviation": {
+              "en": "CRF",
+              "fr": "CRC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "COMMUNITY CORRECTIONAL CENTRE",
+            "description": {
+              "en": "COMMUNITY CORRECTIONAL CENTRE",
+              "fr": "CENTRE CORRECTIONNEL COMMUN."
+            },
+            "shortDescription": {
+              "en": "CCC",
+              "fr": "CCC"
+            },
+            "abbreviation": {
+              "en": "CCC",
+              "fr": "CCC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "SECONDARY/SEASONAL RESIDENTIAL",
+            "description": {
+              "en": "SECONDARY/SEASONAL RESIDENTIAL",
+              "fr": "RÉSID. SECONDAIRE/SAISONNIER"
+            },
+            "shortDescription": {
+              "en": "SECOND/SEAS RES",
+              "fr": "RES SECOND/SAIS"
+            },
+            "abbreviation": {
+              "en": "SERE",
+              "fr": "RESE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "FEDERAL INST. (EXCLUD. CCC'S)",
+            "description": {
+              "en": "FEDERAL INST. (EXCLUD. CCC'S)",
+              "fr": "ÉTABL. FÉDÉRAL (EXCL. LES CCC)"
+            },
+            "shortDescription": {
+              "en": "FEDERAL INSTIT",
+              "fr": "ÉTABL FÉDÉRAL"
+            },
+            "abbreviation": {
+              "en": "FEIN",
+              "fr": "ETFE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "HEALING LODGE",
+            "description": {
+              "en": "HEALING LODGE",
+              "fr": "PAVILLON DE RESSOURCEMENT"
+            },
+            "shortDescription": {
+              "en": "HEALING LODGE",
+              "fr": "PAVILLON RESS"
+            },
+            "abbreviation": {
+              "en": "HELO",
+              "fr": "PAVR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "HOSTEL",
+            "description": {
+              "en": "HOSTEL",
+              "fr": "FOYER"
+            },
+            "shortDescription": {
+              "en": "HOSTEL",
+              "fr": "FOYER"
+            },
+            "abbreviation": {
+              "en": "HOST",
+              "fr": "FOYE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0009",
+            "name": "PRIVATE HOME PLACEMENT",
+            "description": {
+              "en": "PRIVATE HOME PLACEMENT",
+              "fr": "PLACEMENT DANS MAISON PRIVÉE"
+            },
+            "shortDescription": {
+              "en": "PVT HOME PLCMNT",
+              "fr": "PLA MAISON PRIV"
+            },
+            "abbreviation": {
+              "en": "PHPL",
+              "fr": "PLMP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0010",
+            "name": "PROV CORR/MENTAL HEALTH FACIL",
+            "description": {
+              "en": "PROV CORR/MENTAL HEALTH FACIL",
+              "fr": "ETAB CORR PROV/SANTÉ MENTALE"
+            },
+            "shortDescription": {
+              "en": "PROV COR/MH FAC",
+              "fr": "ET CORR PROV/SM"
+            },
+            "abbreviation": {
+              "en": "PCMH",
+              "fr": "PRSM"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0011",
+            "name": "SATELLITE APARTMENT",
+            "description": {
+              "en": "SATELLITE APARTMENT",
+              "fr": "APPARTEMENT SATELLITE"
+            },
+            "shortDescription": {
+              "en": "SATELLITE APT",
+              "fr": "APP SATELLITE"
+            },
+            "abbreviation": {
+              "en": "SAAP",
+              "fr": "APSA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0012",
+            "name": "SUPERVISED APARTMENT",
+            "description": {
+              "en": "SUPERVISED APARTMENT",
+              "fr": "APPARTEMENT SUPERVISÉ"
+            },
+            "shortDescription": {
+              "en": "SUPERVISED APT",
+              "fr": "APP SUPERVISÉ"
+            },
+            "abbreviation": {
+              "en": "SUAP",
+              "fr": "APSU"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0013",
+            "name": "TREATMENT CENTRE",
+            "description": {
+              "en": "TREATMENT CENTRE",
+              "fr": "CENTRE DE TRAITEMENT"
+            },
+            "shortDescription": {
+              "en": "TREATMENT CTRE",
+              "fr": "CENTRE TRAITEM"
+            },
+            "abbreviation": {
+              "en": "TRCE",
+              "fr": "CETR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0015",
+            "name": "SHELTER",
+            "description": {
+              "en": "SHELTER",
+              "fr": "REFUGE"
+            },
+            "shortDescription": {
+              "en": "SHELTER",
+              "fr": "REFUGE"
+            },
+            "abbreviation": {
+              "en": "SHEL",
+              "fr": "REFG"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0016",
+            "name": "DP OTHER (EXCLUD. CBRF)",
+            "description": {
+              "en": "DP OTHER (EXCLUD. CBRF)",
+              "fr": "SL AUTRE (EXCLUS ERC)"
+            },
+            "shortDescription": {
+              "en": "DP OTH EX CBRF",
+              "fr": "SL AUTRE EX ERC"
+            },
+            "abbreviation": {
+              "en": "DPO",
+              "fr": "SLA"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430bb6649ab1ff4462464",
+        "code": "3003",
+        "name": "CLIENTELE",
+        "description": {
+          "en": "CLIENTELE",
+          "fr": "CLIENTÈLE"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "MEN",
+            "description": {
+              "en": "MEN",
+              "fr": "HOMMES"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "WOMEN",
+            "description": {
+              "en": "WOMEN",
+              "fr": "FEMMES"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "CO-ED",
+            "description": {
+              "en": "CO-ED",
+              "fr": "MIXTE"
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff4462478",
+        "code": "3064",
+        "name": "BARRIER RATIONALES",
+        "description": {
+          "en": "BARRIER RATIONALES",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "TRA INDICATED USE",
+            "description": {
+              "en": "TRA Indicated use",
+              "fr": "Recommandation fondée sur une EMR"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "VIOLENT BEHAVIOUR",
+            "description": {
+              "en": "Violent Behaviour",
+              "fr": "Comportement violent"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d949f598a93ea06f6270460",
+        "code": "3083",
+        "name": "HEALTH RECOMMENDATIONS",
+        "description": {
+          "en": "HEALTH RECOMMENDATIONS",
+          "fr": "HEALTH RECOMMENDATIONS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "REMOVE FROM STRUCTURED INTERVENTION UNIT",
+            "description": {
+              "en": "Remove from Structured Intervention unit",
+              "fr": "Remove from Structured Intervention unit-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "MODIFY CONDITIONS OF STRUCTURED INTERVENTION UNIT",
+            "description": {
+              "en": "Modify Conditions of Structured Intervention Unit",
+              "fr": "Modify Conditions of Structured Intervention Unit-FR"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d4430c66649ab1ff446246e",
+        "code": "3052",
+        "name": "COMMUNICATION MEANS",
+        "description": {
+          "en": "COMMUNICATION MEANS",
+          "fr": ""
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PRINTED AND IN WRITING",
+            "description": {
+              "en": "Printed and in writing",
+              "fr": "Imprimé et par écrit"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "DIGITAL DISPLAY AND BIOMETRIC",
+            "description": {
+              "en": "Digital display and biometric",
+              "fr": "Affichage numérique et biométrique"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d7a757eb8a226d5fdf0d3cb",
+        "code": "3077",
+        "name": "AUTHORIZATION DETAILS",
+        "description": {
+          "en": "AUTHORIZATION DETAILS",
+          "fr": "AUTHORIZATION DETAILS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "CONTINUTATION REASONS",
+            "description": {
+              "en": "CONTINUTATION REASONS",
+              "fr": "CONTINUTATION REASONS-FR"
+            },
+            "status": "R",
+            "items": [
+              {
+                "code": "0001",
+                "name": "RETURN TRANSFER TO SIU...",
+                "description": {
+                  "en": "Return Transfer to SIU within 14-calendar days",
+                  "fr": "Return Transfer to SIU within 14-calendar days-FR"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0002",
+                "name": "RETURN TO SIU...",
+                "description": {
+                  "en": "Return to SIU within 14-calendar days following Suspension of Conditional Release",
+                  "fr": "Return to SIU within 14-calendar days following Suspension of Conditional Release"
+                },
+                "status": "R"
+              }
+            ]
+          },
+          {
+            "code": "0002",
+            "name": "NO RESTRICTED REASONS",
+            "description": {
+              "en": "NO RESTRICTED MOVEMENT REASONS",
+              "fr": "NO RESTRICTED MOVEMENT REASONS-FR"
+            },
+            "status": "R",
+            "items": [
+              {
+                "code": "0001",
+                "name": "TRANSFERRED TO SIU",
+                "description": {
+                  "en": "Transferred to SIU Facility",
+                  "fr": "Transferred to SIU Facility-FR"
+                },
+                "status": "R"
+              },
+              {
+                "code": "0002",
+                "name": "OUTSIDE HOSPITAL",
+                "description": {
+                  "en": "Outside Hospital",
+                  "fr": "Outside Hospital-FR"
+                },
+                "status": "R"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d803ae82d2bc218042ed3e2",
+        "code": "3099",
+        "name": "OAM ROLES",
+        "description": {
+          "en": "ROLES",
+          "fr": "OAM RÔLES"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "FACILITY MANAGER",
+            "description": {
+              "en": "FACILITY MANAGER",
+              "fr": "GESTIONNAIRE D’ÉTABLISSEMENT"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Correctional Officer",
+                  "nameFr": "Agent correctionnel"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Institutional Parole Officer",
+                  "nameFr": "Agent de libération conditionnelle en établissement"
+                },
+                {
+                  "id": 3,
+                  "nameEn": "Correctional Program Officer",
+                  "nameFr": "Agent de programmes correctionnels"
+                },
+                {
+                  "id": 4,
+                  "nameEn": "Social Program Officer",
+                  "nameFr": "Agent des programmes sociaux"
+                },
+                {
+                  "id": 4,
+                  "nameEn": "Aboriginal Liason Officer",
+                  "nameFr": "Agent de liaison autochtone"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0002",
+            "name": "CASE MANAGER",
+            "description": {
+              "en": "Case Manager",
+              "fr": "GESTIONNAIRE DE CAS"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Doctor",
+                  "nameFr": "Médecin"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Nurse",
+                  "nameFr": "Personnel infirmier"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0003",
+            "name": "BED MANAGER",
+            "description": {
+              "en": "BED MANAGER",
+              "fr": "GESTIONNAIRE DE LITS"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Correctional Manager",
+                  "nameFr": "Gestionnaire correctionnel"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "Manager Assessment and Intervention",
+                  "nameFr": "Gestionnaire, Évaluation et interventions"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0004",
+            "name": "REPORTING",
+            "description": {
+              "en": "REPORTING",
+              "fr": "PRODUCTION DE RAPPORTS"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "Institutional Head",
+                  "nameFr": "Directeur de l’établissement"
+                }
+              ]
+            }
+          },
+          {
+            "code": "0005",
+            "name": "ADMINISTRATOR",
+            "description": {
+              "en": "ADMINISTRATOR",
+              "fr": "ADMINISTRATEUR"
+            },
+            "other": {
+              "icon": [
+                {
+                  "id": 1,
+                  "nameEn": "System Admin",
+                  "nameFr": "Administrateur du système"
+                },
+                {
+                  "id": 2,
+                  "nameEn": "IT Admin",
+                  "nameFr": "Administrateur informatique"
+                }
+              ]
+            }
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      },
+      {
+        "_id": "5d949f598a93ea06f6270482",
+        "code": "3084",
+        "name": "HEALTH REASONS",
+        "description": {
+          "en": "HEALTH REASONS",
+          "fr": "HEALTH REASONS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "PHYSICAL HEALTH",
+            "description": {
+              "en": "Physical Health",
+              "fr": "fr_Physical Health"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "MENTAL HEALTH",
+            "description": {
+              "en": "Mental Health",
+              "fr": "fr_Mental Health"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d974aea10ca1954fcbc29eb",
+        "code": "3098",
+        "name": "SIU ROLES",
+        "description": {
+          "en": "SIU ROLES",
+          "fr": "RÔLES UIS"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "CORRECTIONAL OFFICER",
+            "description": {
+              "en": "CORRECTIONAL OFFICER",
+              "fr": "AGENT CORRECTIONNEL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "INSTIUTIONAL PAROLE OFFICER",
+            "description": {
+              "en": "INSTIUTIONAL PAROLE OFFICER",
+              "fr": "AGENT DE LIBÉRATION CONDITIONNELLE EN ÉTABLISSEMENT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "CORRECTIONAL PROGRAM OFFICER",
+            "description": {
+              "en": "CORRECTIONAL PROGRAM OFFICER",
+              "fr": "AGENT DE PROGRAMMES CORRECTIONNELS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "SOCIAL PROGRAM OFFICER",
+            "description": {
+              "en": "SOCIAL PROGRAM OFFICER",
+              "fr": "AGENT DE PROGRAMMES SOCIAUX"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "TEACHER",
+            "description": {
+              "en": "TEACHER",
+              "fr": "ENSEIGNANT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "INDIGENOUS LIASION OFFICER ",
+            "description": {
+              "en": "INDIGENOUS LIASION OFFICER ",
+              "fr": "AGENT DE LIAISON AUTOCHTONE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "INDIGENOUS PROGRAM OFFICER",
+            "description": {
+              "en": "INDIGENOUS PROGRAM OFFICER",
+              "fr": "AGENT DE PROGRAMMES AUTOCHTONES"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "NURSE",
+            "description": {
+              "en": "NURSE",
+              "fr": "INFIRMIER/INFIRMIÈRE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0009",
+            "name": "DOCTOR",
+            "description": {
+              "en": "DOCTOR",
+              "fr": "MÉDECIN"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0010",
+            "name": "PSYCHOLOGIST",
+            "description": {
+              "en": "PSYCHOLOGIST",
+              "fr": "PSYCHOLOGUE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0011",
+            "name": "THERAPIST",
+            "description": {
+              "en": "THERAPIST",
+              "fr": "THÉRAPEUTE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0012",
+            "name": "BEHAVIOURAL COUNCELLORS",
+            "description": {
+              "en": "BEHAVIOURAL COUNCELLORS",
+              "fr": "CONSEILLER EN COMPORTEMENT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0013",
+            "name": "MANAGER ASSESSMENT & INTERVENTIONS (MAI)",
+            "description": {
+              "en": "MANAGER ASSESSMENT & INTERVENTIONS (MAI)",
+              "fr": "GESTIONNAIRE, ÉVALUATION ET INTERVENTIONS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0014",
+            "name": "MANAGER INTESIVE INTERVENTION STRATEGY (MIIS)",
+            "description": {
+              "en": "MANAGER INTESIVE INTERVENTION STRATEGY (MIIS)",
+              "fr": "GESTIONNAIRE, STRATÉGIE D’INTERVENTION INTENSIVE "
+            },
+            "status": "R"
+          },
+          {
+            "code": "0015",
+            "name": "SECURITY INTELLIGENCE OFFICER (SIO)",
+            "description": {
+              "en": "SECURITY INTELLIGENCE OFFICER (SIO)",
+              "fr": "AGENT DE RENSEIGNEMENTS DE SÉCURITÉ (ARS)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0016",
+            "name": "OFFICER IN CHARGE (OIC)",
+            "description": {
+              "en": "OFFICER IN CHARGE (OIC)",
+              "fr": "AGENT RESPONSABLE (AR)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0017",
+            "name": "CORRECTIONAL MANAGER (CM)",
+            "description": {
+              "en": "CORRECTIONAL MANAGER (CM)",
+              "fr": "GESTIONNAIRE CORRECTIONNEL (GC)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0018",
+            "name": "DEPUTY WARDEN (DW)",
+            "description": {
+              "en": "DEPUTY WARDEN (DW)",
+              "fr": "SOUS-DIRECTEUR (SD)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0019",
+            "name": "ASSISTANT WARDEN OPERATIONS (AWO)",
+            "description": {
+              "en": "ASSISTANT WARDEN OPERATIONS (AWO)",
+              "fr": "DIRECTEUR ADJOINT, OPÉRATIONS (DAO)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0020",
+            "name": "ASSISTANT WARDEN INTERVENTIONS (AWI)",
+            "description": {
+              "en": "ASSISTANT WARDEN INTERVENTIONS (AWI)",
+              "fr": "DIRECTEUR ADJOINT, INTERVENTIONS (DAI)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0021",
+            "name": "WARDEN",
+            "description": {
+              "en": "WARDEN",
+              "fr": "DIRECTEUR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0022",
+            "name": "ASSISTANT DEPUTY COMMISSIONER, CORRECTIONAL OPERATIONS (ADCCO)",
+            "description": {
+              "en": "ASSISTANT DEPUTY COMMISSIONER, CORRECTIONAL OPERATIONS (ADCCO)",
+              "fr": "SOUS-COMMISSAIRE ADJOINT, OPÉRATIONS CORRECTIONNELLES (SCAOC)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0023",
+            "name": "SENIOR DEPUTY COMMISSIONER",
+            "description": {
+              "en": "SENIOR DEPUTY COMMISSIONER",
+              "fr": "SOUS-COMMISSAIRE PRINCIPAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0024",
+            "name": "ASSISTANT COMISSIONER, HEALTH SERVICES",
+            "description": {
+              "en": "ASSISTANT COMISSIONER, HEALTH SERVICES",
+              "fr": "COMMISSAIRE ADJOINT, SERVICES DE SANTÉ"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0025",
+            "name": "SENIOR PROJECT OFFICER",
+            "description": {
+              "en": "SENIOR PROJECT OFFICER",
+              "fr": "AGENT PRINCIPAL DE PROJET"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0026",
+            "name": "REGIONAL DEPUTY COMMISSIONER",
+            "description": {
+              "en": "REGIONAL DEPUTY COMMISSIONER",
+              "fr": "SOUS-COMMISSAIRE RÉGIONAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0027",
+            "name": "DIRECTOR GENERAL OFFENDER PROGRAMS AND REINTEGRATION",
+            "description": {
+              "en": "DIRECTOR GENERAL OFFENDER PROGRAMS AND REINTEGRATION",
+              "fr": "DIRECTEUR GÉNÉRAL, PROGRAMMES DES DÉLINQUANTS ET RÉINSERTION SOCIALE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0028",
+            "name": "ASSISTANT DEPUTY COMMISIONER INTEGRATED SERVICES",
+            "description": {
+              "en": "ASSISTANT DEPUTY COMMISIONER INTEGRATED SERVICES",
+              "fr": "SOUS-COMMISSAIRE ADJOINT, SERVICES INTÉGRÉS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0029",
+            "name": "DEPUTY COMMISSIONER FOR WOMEN",
+            "description": {
+              "en": "DEPUTY COMMISSIONER FOR WOMEN",
+              "fr": "SOUS-COMMISSAIRE POUR LES FEMMES"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0030",
+            "name": "SENIOR DEPUTY COMMISSIONER",
+            "description": {
+              "en": "SENIOR DEPUTY COMMISSIONER",
+              "fr": "SOUS-COMMISSAIRE PRINCIPAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0031",
+            "name": "COMMISSIONER",
+            "description": {
+              "en": "COMMISSIONER",
+              "fr": "COMMISSAIRE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0032",
+            "name": "IT ADMIN",
+            "description": {
+              "en": "IT ADMIN",
+              "fr": "ADMINISTRATEUR, TI"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0033",
+            "name": "OMS SPECIALIST (SUPPORT)",
+            "description": {
+              "en": "OMS SPECIALIST (SUPPORT)",
+              "fr": "SPÉCIALISTE DU SGD (SOUTIEN)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0034",
+            "name": "LOCAL IT ADMIN",
+            "description": {
+              "en": "LOCAL IT ADMIN",
+              "fr": "ADMINISTRATEUR, TI LOCAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0035",
+            "name": "IEDM",
+            "description": {
+              "en": "INDEPENDENT EXTERNAL DECISION MAKER (IEDM)",
+              "fr": "DÉCIDEUR EXTÉRIEUR INDÉPENDANT (DEI)"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0036",
+            "name": "CHAPLAIN",
+            "description": {
+              "en": "CHAPLAIN",
+              "fr": "AUMÔNIER"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0037",
+            "name": "ELDER",
+            "description": {
+              "en": "ELDER",
+              "fr": "AÎNÉ"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0038",
+            "name": "REGIONAL PROGRAM MANAGER –(RPM)",
+            "description": {
+              "en": "REGIONAL PROGRAM MANAGER –(RPM)",
+              "fr": "GESTIONNAIRE DE PROGRAMME RÉGIONAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0039",
+            "name": "REGIONAL PROJECT OFFICER –(RPO)",
+            "description": {
+              "en": "REGIONAL PROJECT OFFICER –(RPO)",
+              "fr": "AGENT DE PROJET RÉGIONAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0040",
+            "name": "MANAGER’S ASSISTANT",
+            "description": {
+              "en": "MANAGER’S ASSISTANT",
+              "fr": "ASSISTANT GESTIONNAIRE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0041",
+            "name": "MANAGER, SIU",
+            "description": {
+              "en": "MANAGER, SIU",
+              "fr": "GESTIONAIRE, UIS"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0042",
+            "name": "SOCIAL WORKER,",
+            "description": {
+              "en": "SOCIAL WORKER",
+              "fr": "TRAVAILLEUR SOCIAL"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0043",
+            "name": "READ ONLY",
+            "description": {
+              "en": "READ ONLY",
+              "fr": "LECTURE SEULE"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5daf10df9fe63a0530c9e194",
+        "code": "3092",
+        "name": "RECOMMENDATION RESPONSES",
+        "description": {
+          "en": "Recommendation Response",
+          "fr": "fr_Recommendation Response"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "RECOMMENDATION FULLY IMPLEMENTED",
+            "description": {
+              "en": "Recommendation fully implemented",
+              "fr": "Recommandation entierement appliquee"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "RECOMMENDATION IMPLEMENTED BUT WITH DELAY",
+            "description": {
+              "en": "Recommendation implemented but with delay",
+              "fr": "Recommandation appliquee mais avec delais"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "RECOMMENDATIONS PARTIALLY IMPLEMENTED",
+            "description": {
+              "en": "Recommendations partially implemented",
+              "fr": "Recommandations partiellement appliquees"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "RECOMMENDATIONS DECLINED",
+            "description": {
+              "en": "Recommendations declined",
+              "fr": "Recommandation refusee"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5da5dddad27dfc572f5d7a5d",
+        "code": "2211",
+        "items": [
+          {
+            "code": "0001",
+            "name": "CCRA 34.1A JEOP SFTY/SEC INST",
+            "description": {
+              "en": "CCRA 34.1A JEOP SFTY/SEC INST",
+              "fr": "34.1A COMP. SÉCURITÉ PÉNIT."
+            },
+            "shortDescription": {
+              "en": "CCRA 34.1A",
+              "fr": "LSCMLSC 34.1A"
+            },
+            "abbreviation": {
+              "en": "341A",
+              "fr": "341A"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "CCRA 34.1B JEOP INMATE SFTY",
+            "description": {
+              "en": "CCRA 34.1B JEOP INMATE SFTY",
+              "fr": "34.1B COMP. SÉCURITÉ DÉTENU"
+            },
+            "shortDescription": {
+              "en": "CCRA 34.1B",
+              "fr": "LSCMLSC 34.1B"
+            },
+            "abbreviation": {
+              "en": "341B",
+              "fr": "341B"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "CCRA 34.1C INTERF W/INVEST",
+            "description": {
+              "en": "CCRA 34.1C INTERF W/INVEST",
+              "fr": "34.1C NUIRE À UNE ENQUÊTE"
+            },
+            "shortDescription": {
+              "en": "CCRA 34.1C",
+              "fr": "LSCMLSC 34.1C"
+            },
+            "abbreviation": {
+              "en": "341C",
+              "fr": "341C"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d960a708a93ea06f67c56a1",
+        "code": "3088",
+        "name": "OUT OF FACILITY REASONS",
+        "description": {
+          "en": "OUT OF FACILITY REASONS",
+          "fr": "OUT OF FACILITY REASONS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INSTITUTIONAL OR OUTSIDE COURT",
+            "description": {
+              "en": "Institutional or Outside Court",
+              "fr": "Cour institutionnelle ou extérieure"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "TRANSFER TO SIU",
+            "description": {
+              "en": "Transfer to SIU",
+              "fr": "Transfèrements vers UIS"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "EXTERNAL HEALTH CARE-HOSPITAL",
+            "description": {
+              "en": "External Health Care-Hospital",
+              "fr": "Hôpital ou Centre de soins extérieurs"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "INTERNAL HEALTH CARE CENTRE",
+            "description": {
+              "en": "Internal Health Care Centre",
+              "fr": "Centre de soins de santé interne"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "PAROLE BOARD HEARINGS",
+            "description": {
+              "en": "Parole Board Hearings",
+              "fr": "Audiences Commission Libérations conditionnelles"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "OTHER",
+            "description": {
+              "en": "Other",
+              "fr": "Autres"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d97992a8a93ea06f6caae1f",
+        "code": "3089",
+        "name": "COMPLIANCY RESULT OUTCOMES",
+        "description": {
+          "en": "COMPLIANCY RESULT OUTCOMES",
+          "fr": "COMPLIANCY RESULT OUTCOMES-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "COMPLIANT",
+            "description": {
+              "en": "Compliant",
+              "fr": "Conforme"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "NOT COMPLIANT",
+            "description": {
+              "en": "Not Compliant",
+              "fr": "Non Conforme"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "LEFT EARLY",
+            "description": {
+              "en": "Left Early",
+              "fr": "Départ hâtif"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5db05fe841ff1d26dc349a42",
+        "code": "3091",
+        "name": "SIU SITES",
+        "description": {
+          "en": "SIU SITES",
+          "fr": "SIU SITES-FR"
+        },
+        "items": [
+          {
+            "code": "23100",
+            "name": "ATLANTIC (RENOUS) INSTITUTION",
+            "description": {
+              "en": "ATLANTIC (RENOUS) INSTITUTION",
+              "fr": "ETABL. ATLANTIC(RENOUS)"
+            }
+          },
+          {
+            "code": "25000",
+            "name": "NOVA INSTITUTION FOR WOMEN",
+            "description": {
+              "en": "NOVA INSTITUTION FOR WOMEN",
+              "fr": "ETAB. NOVA POUR FEMMES"
+            }
+          },
+          {
+            "code": "32100",
+            "name": "DONNACONA INSTITUTION",
+            "description": {
+              "en": "DONNACONA INSTITUTION",
+              "fr": "TABL. DONNACONA"
+            }
+          },
+          {
+            "code": "32500",
+            "name": "JOLIETTE INSTITUTION",
+            "description": {
+              "en": "JOLIETTE INSTITUTION",
+              "fr": "ÉTABL. JOLIETTE"
+            }
+          },
+          {
+            "code": "36800",
+            "name": "PORT CARTIER INSTITUTION",
+            "description": {
+              "en": "PORT CARTIER INSTITUTION",
+              "fr": "TABL. PORT-CARTIER"
+            }
+          },
+          {
+            "code": "42100",
+            "name": "MILLHAVEN INSTITUTION",
+            "description": {
+              "en": "MILLHAVEN INSTITUTION",
+              "fr": "ETABL. MILLHAVEN"
+            }
+          },
+          {
+            "code": "46500",
+            "name": "GRAND VALLEY INST FOR WOMEN",
+            "description": {
+              "en": "GRAND VALLEY INST FOR WOMEN",
+              "fr": "GRAND VALLEY INST FOR WOMEN"
+            }
+          },
+          {
+            "code": "51000",
+            "name": "STONY MOUNTAIN",
+            "description": {
+              "en": "STONY MOUNTAIN",
+              "fr": "ETABL. STONY MOUNTAIN"
+            }
+          },
+          {
+            "code": "52000",
+            "name": "SASKATCHEWAN PENITENTIARY",
+            "description": {
+              "en": "SASKATCHEWAN PENITENTIARY",
+              "fr": "ETABL. SASKATCHEWAN"
+            }
+          },
+          {
+            "code": "53700",
+            "name": "BOWDEN INSTITUTION",
+            "description": {
+              "en": "BOWDEN INSTITUTION",
+              "fr": "ETABL. BOWDEN"
+            }
+          },
+          {
+            "code": "53800",
+            "name": "EDMONTON INSTITUTION FOR WOMEN",
+            "description": {
+              "en": "EDMONTON INSTITUTION FOR WOMEN",
+              "fr": "EDMONTON INSTITUTION FOR WOMEN"
+            }
+          },
+          {
+            "code": "53900",
+            "name": "EDMONTON INSTITUTION",
+            "description": {
+              "en": "EDMONTON INSTITUTION",
+              "fr": "ETABL. EDMONTON"
+            }
+          },
+          {
+            "code": "83200",
+            "name": "HOBDEN HOUSE  83200",
+            "decription": {
+              "en": "HOBDEN HOUSE  83200",
+              "fr": "HOBDEN HOUSE  83200"
+            }
+          },
+          {
+            "code": "83600",
+            "name": "KENT INSTITUTION",
+            "description": {
+              "en": "KENT INSTITUTION",
+              "fr": "ETABL. KENT"
+            }
+          },
+          {
+            "code": "85000",
+            "name": "FRASER VALLEY INSTITUTION",
+            "description": {
+              "en": "FRASER VALLEY INSTITUTION",
+              "fr": "FRASER VALLEY INSTITUTION"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d979ac68a93ea06f6cafa04",
+        "code": "3090",
+        "name": "WOMEN'S SOCIAL PROGRAMS",
+        "description": {
+          "en": "WOMEN'S SOCIAL PROGRAMS",
+          "fr": "WOMEN'S SOCIAL PROGRAMS-FR"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "SOCIAL INTEGRATION PROGRAM INTAKE",
+            "description": {
+              "en": "Social Integration Program Intake",
+              "fr": "Social Integration Program Intake-FR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "SOCIAL INTEGRATION PROGRAM",
+            "description": {
+              "en": "Social Integration Program",
+              "fr": "Social Integration Program-FR"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5daf13bc9fe63a0530c9e195",
+        "code": "3093",
+        "name": "REFERRAL REASONS",
+        "description": {
+          "en": "Referral Reasons",
+          "fr": "fr_Referral Reasons"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "INMATE REFUSED TO INTERACT WITH OTHERS FOR A PRESCRIBED PERIOD",
+            "description": {
+              "en": "Inmate refused to interact with others for a prescribed period",
+              "fr": "Le délinquant a refusé d'intéragir avec les autres pour une période prescrite"
+            }
+          },
+          {
+            "code": "0002",
+            "name": "INMATE EXHIBITED A TENDENCY TO SELF-HARM",
+            "description": {
+              "en": "Inmate exhibited a tendency to self-harm",
+              "fr": "Le délinquant a démontré un tendance d'automutilation"
+            }
+          },
+          {
+            "code": "0003",
+            "name": "INMATE SHOWED SIGNS OF AN ADVERSE DRUG REACTION",
+            "description": {
+              "en": "Inmate showed signs of an adverse drug reaction",
+              "fr": "Le délinquant a démontré des signes de réaction négatif aux médicaments"
+            }
+          },
+          {
+            "code": "0004",
+            "name": "INMATE SHOWED SIGNS OF EMOTIONAL DISTRESS",
+            "description": {
+              "en": "INMATE SHOWED SIGNS OF EMOTIONAL DISTRESS",
+              "fr": "Le délinquant a démontré des signes de détresse émotionelle"
+            }
+          },
+          {
+            "code": "0005",
+            "name": "INITIAL ASSESSMENT",
+            "description": {
+              "en": "Initial Assessment",
+              "fr": "Évaluation initiale"
+            }
+          }
+        ],
+        "tags": [
+          "SIU"
+        ]
+      },
+      {
+        "_id": "5d31bfc1cee1f10d912bb23e",
+        "code": "2059",
+        "name": "FACILITY TIME ZONE TYPE TABLE",
+        "description": {
+          "en": "FACILITY TIME ZONE TYPE TABLE",
+          "fr": "FACILITY TIME ZONE TYPE TABLE"
+        },
+        "shortDescription": {
+          "en": "TIME ZONE",
+          "fr": "TIME ZONE"
+        },
+        "abbreviation": {
+          "en": "TZ",
+          "fr": "TZ"
+        },
+        "items": [
+          {
+            "code": "0001",
+            "name": "NEWFOUNDLAND TIME",
+            "description": {
+              "en": "NEWFOUNDLAND TIME",
+              "fr": "HEURE DE TERRE-NEUVE"
+            },
+            "shortDescription": {
+              "en": "NEWFOUNDLAND",
+              "fr": "TERRE-NEUVE"
+            },
+            "abbreviation": {
+              "en": "NT",
+              "fr": "HT"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0002",
+            "name": "ATLANTIC TIME",
+            "description": {
+              "en": "ATLANTIC TIME",
+              "fr": "HEURE DE L'ATLANTIQUE"
+            },
+            "shortDescription": {
+              "en": "ATLANTIC",
+              "fr": "ATLANTIQUE"
+            },
+            "abbreviation": {
+              "en": "AT",
+              "fr": "HA"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0003",
+            "name": "EASTERN TIME",
+            "description": {
+              "en": "EASTERN TIME",
+              "fr": "HEURE DE L'EST"
+            },
+            "shortDescription": {
+              "en": "EASTERN",
+              "fr": "EST"
+            },
+            "abbreviation": {
+              "en": "ET",
+              "fr": "HE"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0004",
+            "name": "CENTRAL TIME",
+            "description": {
+              "en": "CENTRAL TIME",
+              "fr": "HEURE DU CENTRE"
+            },
+            "shortDescription": {
+              "en": "CENTRAL",
+              "fr": "CENTRE"
+            },
+            "abbreviation": {
+              "en": "CT",
+              "fr": "HC"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0005",
+            "name": "MOUNTAIN TIME",
+            "description": {
+              "en": "MOUNTAIN TIME",
+              "fr": "HEURE DES ROCHEUSES"
+            },
+            "shortDescription": {
+              "en": "MOUNTAIN",
+              "fr": "ROCHEUSES"
+            },
+            "abbreviation": {
+              "en": "MT",
+              "fr": "HR"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0006",
+            "name": "PACIFIC TIME",
+            "description": {
+              "en": "PACIFIC TIME",
+              "fr": "HEURE DU PACIFIQUE"
+            },
+            "shortDescription": {
+              "en": "PACIFIC",
+              "fr": "PACIFIQUE"
+            },
+            "abbreviation": {
+              "en": "PT",
+              "fr": "HP"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0007",
+            "name": "YUKON TIME",
+            "description": {
+              "en": "YUKON TIME",
+              "fr": "HEURE DU YUKON"
+            },
+            "shortDescription": {
+              "en": "YUKON",
+              "fr": "YUKON"
+            },
+            "abbreviation": {
+              "en": "YT",
+              "fr": "HY"
+            },
+            "status": "R"
+          },
+          {
+            "code": "0008",
+            "name": "SASKATCHEWAN TIME",
+            "description": {
+              "en": "SASKATCHEWAN TIME",
+              "fr": "HEURE DE SASKATCHEWAN"
+            },
+            "shortDescription": {
+              "en": "SASKATCHEWAN",
+              "fr": "SASKATCHEWAN"
+            },
+            "abbreviation": {
+              "en": "SK",
+              "fr": "SK"
+            },
+            "status": "R"
+          }
+        ],
+        "tags": [
+          "OAM"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "http://localhost:3000/api/v1/codes",
+        "rel": "self",
+        "method": "GET"
+      }
+    ]
+  }

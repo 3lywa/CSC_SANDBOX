@@ -1,0 +1,158 @@
+{
+  "app-header": {
+    "title": "CSC SANDBOX",
+    "logout": "Logout",
+    "banner": "This system is for the use of authorized individuals only and is monitored in accordance with Treasury Board and Correctional Service of Canada Policy on the use of electronic networks. Evidence of unacceptable of illegal use will be reported and disciplinary or legal action may follow.",
+    "employee_profile": "Employee Profile"
+  },
+  "full_layout": {
+    "dashboard": "Dashboard"
+  },
+  "login": {
+    "title": "Template",
+    "body": "Sign in using your NT Account",
+    "account": "Account",
+    "profile": "Profile",
+    "logout": "Logout",
+    "sign-in": "Sign In to your account",
+    "password_required": "Password is required",
+    "username": "Username (NT Account)",
+    "username_required": "Username is required",
+    "login": "Login",
+    "password": "Password",
+    "help": "Get help with CSC SANDBOX",
+    "banner": "This system is for the use of authorized individuals only and is monitored in accordance with Treasury Board and Correctional Service of Canada Policy on the use of electronic networks. Evidence of unacceptable of illegal use will be reported and disciplinary or legal action may follow."
+  },
+  "dashboard": {},
+  "item1": {
+    "title": "Item 1"
+  },
+  "template_report": {
+    "title": "Template Report",
+    "header": "List of Records",
+    "tabHeader": "Summary Table"
+  },
+  "export_elements": {
+    "btn_title": "EXPORT",
+    "export_csv": "Export as CSV",
+    "export_pdf": "Export as PDF"
+  },
+  "btn_elements": {
+    "create": "Create",
+    "update": "Update",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "submit": "Submit",
+    "save": "Save",
+    "close": "Close",
+    "reset": "Reset",
+    "yes": "Yes",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "add": "Add",
+    "stop": "Stop",
+    "back": "Back",
+    "showAll": "Show All",
+    "available": "Available",
+    "unavailable": "Unavailable"
+  },
+  "modal_elements": {
+    "title": "Remove",
+    "message": "Are you sure you want to remove ",
+    "remove": "Yes",
+    "cancel": "No"
+  },
+  "placeholder": {
+    "search": "Search here",
+    "startDate": "Select start date",
+    "endDate": "Select end date",
+    "timeframe": "Select timeframe",
+    "no_results": "No Results Found",
+    "nameEn": "Enter English name",
+    "nameFr": "Enter French name",
+    "filterDate": "Filter By Date",
+    "username": "NT Account",
+    "loading": "Loading",
+    "accountnt": "Enter Account NT",
+    "firstname": "Enter First Name",
+    "lastname": "Enter Last Name",
+    "email": "Enter User Email",
+    "facilitycode": "Enter User Facility Code",
+    "roles": "Select User Roles",
+    "noroles": "No roles to display",
+    "nofirstname": "No first name to display",
+    "nolastname": "No last name to display",
+    "noemail": "No email to display",
+    "nofacilitycode": "No facility code to display"
+  },
+  "manage": {
+    "update": "Update",
+    "add": "Add"
+  },
+  "labels": {
+    "nameEn": "NameEn",
+    "nameFr": "NameFr",
+    "descEn": "DescEn",
+    "descFr": "DescFr",
+    "status": "Status"
+  },
+  "tableHeaders": {
+    "from": "From",
+    "to": "To",
+    "total": "Total"
+  },
+  "help": {
+    "title": "Help Center"
+  },
+  "about": {
+    "title": "CSC SANDBOX",
+    "build_no": "Template V1.0",
+    "top_content_1": "Version 1.0",
+    "top_content_2": "CSC SANDBOX",
+    "get_help": "Get help with Template",
+    "bottom_content_1": "CSC SANDBOX",
+    "bottom_content_2": "Copyright @2018 CSC-SSC.",
+    "bottom_content_3A": "CSC SANDBOX is made possible with",
+    "bottom_content_3B": "open source project and other open source libraries."
+  },
+  "settings": {
+    "title": "Preferences",
+    "theme": "Dark Theme",
+    "font_size": "Font Size",
+    "toast_position": "Toast Position",
+    "ipp": "Items per page",
+    "max_size": "Max pagination size",
+    "reset": "Reset",
+    "restore": "Restore settings to their original defaults",
+    "reset_message": "This will reset all current settings to their original defaults? Do you wish to continue?"
+  },
+  "dropdownlist": {
+    "very_small": "Very Small",
+    "small": "Small",
+    "medium": "Medium (Recommended)",
+    "large": "Large",
+    "very_large": "Very Large",
+    "bottom_right": "Bottom Right (Default)",
+    "bottom_left": "Bottom Left",
+    "top_right": "Top Right",
+    "top_left": "Top Left"
+  },
+  "users": {
+    "title": "Users",
+    "username": "Account NT",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "roles": "Roles",
+    "status": "Status",
+    "email": "Email",
+    "facilitycode": "Facility Code",
+    "lastlogin": "Last Login"
+  },
+  "roles": {
+    "title": "Roles",
+    "roleid": "Role Id",
+    "desc": "Description"
+  }
+}
