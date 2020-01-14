@@ -166,7 +166,7 @@
     "name": "Name"
   },
   "offenders": {
-    "offenders": "OFFENDERS",
+    "title": "OFFENDERS",
     "oid": "OID",
     "surname": "Surname"
   }
