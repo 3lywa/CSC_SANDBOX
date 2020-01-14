@@ -17,6 +17,7 @@ import { Subscription } from 'rxjs/Subscription';
 import { ToastrService } from 'ngx-toastr';
 import { PageLoadComponent } from '../pageload.component';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
+import exportFromJSON from 'export-from-json';
 import { Item, Role } from '../../models';
 
 @Component({
@@ -28,13 +29,7 @@ export class OffenderComponent extends PageLoadComponent
   private unsubscribe: Subject<any> = new Subject<any>();
   subscription: Subscription;
 
-  model: any;
-  modelToDelete: any;
-
-  roles: any[];
-
-  updateSelected: boolean;
-  newEntryFlag: boolean;
+  offenders: any[];
 
   searchText: string;
 
@@ -59,8 +54,6 @@ export class OffenderComponent extends PageLoadComponent
     this.initializeOnLoad();
     this.toast = new Toastr(this.toastr, this.languageService);
 
-    this.close();
-
     this.languageService.currentMessage.subscribe(LangSelect => {
       this.selectedLang = LangSelect;
       if (this.selectedLang === 'en') {
@@ -70,24 +63,23 @@ export class OffenderComponent extends PageLoadComponent
       }
     });
 
-    this.roles = this.dataService.getOffenders()['default']['results'];
+    this.offenders = this.dataService.getOffenders()['default']['results'];
   }
 
   initializeOnLoad() {
-    this.roles = [];
+    this.offenders = [];
+  }
+
+  exportJSON(data) {
+    const fileName = data.oid;
+    const exportType = 'json';
+
+    exportFromJSON({ data, fileName, exportType });
   }
 
   ngOnDestroy() {
     this.unsubscribe.next();
     this.unsubscribe.complete();
     this.cdr.detach();
-  }
-
-  resetAll() {
-    this.model = new Role();
-  }
-
-  close() {
-    this.resetAll();
   }
 }

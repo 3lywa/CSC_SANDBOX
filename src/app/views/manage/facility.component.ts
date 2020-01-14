@@ -17,6 +17,7 @@ import { Subscription } from 'rxjs/Subscription';
 import { ToastrService } from 'ngx-toastr';
 import { PageLoadComponent } from '../pageload.component';
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
+import exportFromJSON from 'export-from-json';
 import { Item, Role, Facility } from '../../models';
 
 @Component({
@@ -28,7 +29,7 @@ export class FacilityComponent extends PageLoadComponent
   private unsubscribe: Subject<any> = new Subject<any>();
   subscription: Subscription;
 
-  roles: any[];
+  facilities: any[];
 
   updateSelected: boolean;
   newEntryFlag: boolean;
@@ -64,11 +65,18 @@ export class FacilityComponent extends PageLoadComponent
       }
     });
 
-    this.roles = this.dataService.getFacilities()['default']['results'];
+    this.facilities = this.dataService.getFacilities()['default']['results'];
   }
 
   initializeOnLoad() {
-    this.roles = [];
+    this.facilities = [];
+  }
+
+  exportJSON(data) {
+    const fileName = data.oid;
+    const exportType = 'json';
+
+    exportFromJSON({ data, fileName, exportType });
   }
 
   ngOnDestroy() {

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-8">
           <span class="csc-header">
-            <i class="icon-pie-chart" aria-label="Pie Chart"></i> FACILITIES ({{roles.length}})
+            <i class="icon-pie-chart" aria-label="Pie Chart"></i> FACILITIES ({{facilities.length}})
           </span>
         </div>
       </div>
@@ -24,11 +24,11 @@
       </thead>
       <tbody>
         <tr
-          *ngFor="let role of roles | filter : searchText | orderBy: {property: column, direction: direction} | paginate: { itemsPerPage: ipp, currentPage: cp }; let i = index;">
-          <td>{{role.code}}</td>
-          <td>{{role.header.name.description.en}}</td>
+          *ngFor="let facility of facilities | filter : searchText | orderBy: {property: column, direction: direction} | paginate: { itemsPerPage: ipp, currentPage: cp }; let i = index;">
+          <td><span class="btn-link clickable">{{facility.code}}</span></td>
+          <td>{{facility.header.name.description.en}}</td>
         </tr>
-        <tr *ngIf="(roles | filter : searchText).length < 1">
+        <tr *ngIf="(facilities | filter : searchText).length < 1">
           <td *ngIf="!loading;else spin" colspan="5">{{'placeholder.no_results' | translate}}</td>
           <ng-template #spin>
             <td colspan="5"> {{'placeholder.loading' | translate}}
@@ -39,7 +39,7 @@
       </tbody>
     </table>
     <div class="pagination-footer">
-      <pagination class="justify-content-center" [boundaryLinks]="true" [totalItems]="roles.length" [(ngModel)]="cp"
+      <pagination class="justify-content-center" [boundaryLinks]="true" [totalItems]="facilities.length" [(ngModel)]="cp"
         [maxSize]="maxSize" [itemsPerPage]="ipp" (pageChanged)="cp=$event" firstText="&laquo;" lastText="&raquo;">
       </pagination>
     </div>
