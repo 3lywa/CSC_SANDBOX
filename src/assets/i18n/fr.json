@@ -151,5 +151,20 @@
     "title": "fr_Roles",
     "roleid": "fr_Role Id",
     "desc": "fr_Description"
+  },
+  "codes": {
+    "title": "fr_CODES",
+    "code": "fr_Codes",
+    "name": "fr_Name"
+  },
+  "facilities": {
+    "title": "fr_FACILITIES",
+    "code": "fr_Code",
+    "name": "fr_Name"
+  },
+  "offenders": {
+    "offenders": "fr_OFFENDERS",
+    "oid": "fr_OID",
+    "surname": "fr_Surname"
   }
 }

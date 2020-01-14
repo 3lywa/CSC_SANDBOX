@@ -154,5 +154,20 @@
     "title": "Roles",
     "roleid": "Role Id",
     "desc": "Description"
+  },
+  "codes": {
+    "title": "CODES",
+    "code": "Code",
+    "name": "Name"
+  },
+  "facilities": {
+    "title": "FACILITIES",
+    "code": "Code",
+    "name": "Name"
+  },
+  "offenders": {
+    "offenders": "OFFENDERS",
+    "oid": "OID",
+    "surname": "Surname"
   }
 }

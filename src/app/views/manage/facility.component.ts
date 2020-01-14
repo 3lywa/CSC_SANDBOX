@@ -73,7 +73,7 @@ export class FacilityComponent extends PageLoadComponent
   }
 
   exportJSON(data) {
-    const fileName = data.oid;
+    const fileName = data.code;
     const exportType = 'json';
 
     exportFromJSON({ data, fileName, exportType });
